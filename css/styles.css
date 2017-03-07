@@ -1,0 +1,442 @@
+body {
+  margin: 0; }
+
+footer {
+  background-color: #3859f9;
+  padding: 15px 15px 10px 15px; }
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.left-footer h4 {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin: 0; }
+
+.right-footer p, .left-footer p {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: 0; }
+.right-footer a.social, .left-footer a.social {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 10px; }
+.right-footer a.social:hover, .left-footer a.social:hover {
+  color: #38baf9; }
+
+.right-footer {
+  display: flex;
+  flex-direction: row; }
+
+hr.small-divide {
+  width: 200px;
+  margin-top: 40px; }
+
+.main-headerz {
+  text-align: center;
+  background-repeat: no-repeat; }
+  @media (min-width: 813px) {
+    .main-headerz {
+      background-size: 1000px auto; } }
+  @media (max-width: 679px) {
+    .main-headerz {
+      background-size: 400px auto; } }
+  @media (min-width: 680px) and (max-width: 812px) {
+    .main-headerz {
+      background-size: 800px auto; } }
+  .main-headerz h1 {
+    color: #3859f9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-align: center; }
+  .main-headerz p {
+    color: #555555;
+    text-align: center; }
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0; }
+
+.primary {
+  color: #3859f9; }
+
+.dark-neutral {
+  color: #555555; }
+
+.lite-content {
+  color: #ffffff; }
+
+.lite-with-shadow {
+  color: #ffffff;
+  text-shadow: 1px 2px 2px black; }
+
+.non-background {
+  background-color: #ffffff; }
+
+.canary {
+  background-color: #38baf9; }
+
+.parrot {
+  background-color: #7838f9; }
+
+a.neutral {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3859f9;
+  margin-left: 5px; }
+  a.neutral:hover {
+    color: #797979; }
+
+a.neutral-buttonz {
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3859f9;
+  margin-left: 5px; }
+
+a.neutral-buttonz:hover {
+  color: #ffffff; }
+
+.neutral-button {
+  max-width: 200px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: solid 2px #ffffff;
+  background-color: #ffffff;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all 5s ease-out; }
+
+.neutral-button:hover {
+  border: solid 2px #3859f9;
+  background-color: #3859f9; }
+
+h1 {
+  margin: 0;
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+@media (min-width: 681px) {
+  .big-banner {
+    padding-top: 75px;
+    padding-bottom: 20px; } }
+@media (max-width: 680px) {
+  .big-banner {
+    padding-top: 100px;
+    padding-bottom: 30px; } }
+
+.small-banner {
+  display: flex;
+  flex-direction: row; }
+
+.bigscreen {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .bigscreen h1 {
+    color: #ffffff;
+    text-shadow: 1px 2px 2px black;
+    text-align: center; }
+
+@media (min-width: 681px) {
+  .bigpadding {
+    padding: 150px; } }
+@media (max-width: 680px) {
+  .bigpadding {
+    padding: 100px 30px 50px 30px; } }
+
+@media (min-width: 681px) {
+  .mediumpadding {
+    padding: 100px 100px 75px 100px; } }
+@media (max-width: 680px) {
+  .mediumpadding {
+    padding: 100px 30px 50px 30px; } }
+
+.small-container-center {
+  max-width: 500px; }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.4;
+  font-weight: 300; }
+
+.call-out p {
+  color: #ffffff;
+  text-shadow: 1px 2px 2px black; }
+@media (max-width: 400px) {
+  .call-out {
+    padding: 30px; } }
+@media (min-width: 401px) {
+  .call-out {
+    padding: 100px; } }
+
+.main_nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white; }
+
+/* Float the list items side by side */
+ul.topnav li {
+  float: right; }
+
+/* Style the links inside the list items */
+ul.topnav li a {
+  display: inline-block;
+  color: #555555;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  color: #3859f9; }
+
+ul.topnav li a.active {
+  color: #3859f9; }
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none; }
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media (max-width: 680px) {
+  ul.topnav li:not(:first-child) {
+    display: none; }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block; } }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media (max-width: 680px) {
+  ul.topnav.responsive {
+    position: relative; }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline; }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left; } }
+.image-steps {
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  align-content: flex-start; }
+
+.project-stage-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row; }
+  @media (min-width: 681px) {
+    .project-stage-container {
+      flex-direction: row;
+      padding: 75px; } }
+  @media (max-width: 680px) {
+    .project-stage-container {
+      flex-direction: column;
+      padding: 20px; } }
+
+.descriptor {
+  flex-grow: 1;
+  max-width: 500px; }
+  .descriptor h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0; }
+  @media (min-width: 681px) {
+    .descriptor {
+      margin-right: 50px; } }
+  @media (max-width: 680px) {
+    .descriptor {
+      margin-right: 5px; } }
+
+.visual {
+  flex-grow: 1; }
+  @media (min-width: 900px) {
+    .visual img {
+      max-height: 500px;
+      max-width: 500px;
+      float: right; } }
+  @media (max-width: 899px) {
+    .visual img {
+      max-height: auto;
+      max-width: 300px;
+      float: none; } }
+
+.image-step {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 10px 20px 10px; }
+  .image-step img {
+    max-width: 300px;
+    height: auto; }
+  .image-step h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    font-weight: 400; }
+  .image-step p {
+    margin: 0;
+    font-size: 14px; }
+
+.gallery-container {
+  max-width: 1200px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .gallery-container h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    font-weight: 400;
+    padding: 20px; }
+
+.holder {
+  padding: 30px;
+  margin: 0;
+  background-color: #efefef; }
+
+.card {
+  border-radius: 5px;
+  max-width: 800px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1.5px 1.5px 3px 1.5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1.5px 1.5px 3px 1.5px rgba(0, 0, 0, 0.25);
+  box-shadow: 1.5px 1.5px 3px 1.5px rgba(0, 0, 0, 0.25); }
+
+.small-container-center {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0; }
+
+.responsive-image {
+  max-width: 100%; }
+
+.cell img {
+  display: block; }
+
+.cell {
+  margin: 5px; }
+
+@media (min-width: 600px) {
+  div.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+
+  .responsive-image {
+    max-width: 100%; }
+
+  .cell {
+    width: calc(50% - 2rem);
+    float: none; } }
+@media (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem); } }
+.project-thumbz h3 {
+  color: #ffffff; }
+.project-thumbz p {
+  color: #ffffff;
+  font-weight: 300; }
+
+.project-thumbnail_section {
+  display: flex;
+  text-align: center;
+  align-content: space-around;
+  justify-content: center; }
+  @media (min-width: 680px) {
+    .project-thumbnail_section {
+      flex-direction: row;
+      align-content: stretch; } }
+  @media (max-width: 679px) {
+    .project-thumbnail_section {
+      flex-direction: column;
+      align-items: center; }
+      .project-thumbnail_section .project_thumb {
+        max-width: 300px;
+        margin: 20px 15px 20px 15px; }
+      .project-thumbnail_section img {
+        max-width: 300px;
+        height: auto; } }
+  @media (min-width: 980px) {
+    .project-thumbnail_section .project_thumb {
+      max-width: 300px;
+      margin: 20px 10px 20px 10px; }
+    .project-thumbnail_section img {
+      max-width: 300px;
+      height: auto; } }
+  @media (max-width: 979px) and (min-width: 680px) {
+    .project-thumbnail_section .project_thumb {
+      max-width: 200px;
+      margin: 15px; }
+    .project-thumbnail_section img {
+      max-width: 200px;
+      height: auto; } }
+  .project-thumbnail_section .project_thumb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+.project_thumb h3 {
+  font-family: 'Raleway', sans-serif; }
+.project_thumb p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+.info-card {
+  padding: 20px 30px 20px 30px;
+  text-align: left; }
+  .info-card h3 {
+    color: #1c2c7c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin: 0; }
+  .info-card h4 {
+    color: #1c2c7c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0; }
+  .info-card h5 {
+    color: #3859f9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0; }
+  .info-card p.company {
+    color: #555555;
+    font-size: 1rem;
+    margin: 0; }
+  .info-card p.resume {
+    margin-top: 5px;
+    color: #555555;
+    font-size: 1rem; }
