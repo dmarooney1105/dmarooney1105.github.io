@@ -45,7 +45,7 @@ hr.small-divide {
       background-size: 1000px auto; } }
   @media all and (max-width: 679px) {
     .main-headerz {
-      background-size: 400px auto; } }
+      background-size: 370px auto; } }
   @media all and (min-width: 680px) and (max-width: 812px) {
     .main-headerz {
       background-size: 800px auto; } }
@@ -148,7 +148,7 @@ h1 {
 
 @media all and (min-width: 681px) {
   .bigpadding {
-    padding: 150px; } }
+    padding: 130px; } }
 @media all and (max-width: 680px) {
   .bigpadding {
     padding: 100px 30px 50px 30px; } }
@@ -158,7 +158,14 @@ h1 {
     padding: 100px 100px 75px 100px; } }
 @media all and (max-width: 680px) {
   .mediumpadding {
-    padding: 100px 30px 50px 30px; } }
+    padding: 100px 30px 40px 30px; } }
+
+@media all and (min-width: 681px) {
+  .smallpadding {
+    padding: 30px 50px 50px 50px; } }
+@media all and (max-width: 680px) {
+  .smallpadding {
+    padding: 0 30px 50px 30px; } }
 
 .small-container-center {
   max-width: 500px; }
@@ -340,10 +347,46 @@ ul.topnav li.icon {
   max-width: 100%; }
 
 .cell img {
-  display: block; }
+  display: block;
+  width: 100%;
+  height: auto; }
 
 .cell {
-  margin: 5px; }
+  margin: 5px;
+  position: relative; }
+
+.cell:hover .overlay {
+  height: 100%; }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(56, 89, 249, 0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.overlaytext {
+  white-space: nowrap;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 20px; }
+  .overlaytext p {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 16px; }
 
 @media all and (min-width: 600px) {
   div.photo-gallery {
@@ -409,7 +452,8 @@ ul.topnav li.icon {
   font-family: 'Raleway', sans-serif; }
 .project_thumb p {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400; }
+  font-weight: 300;
+  font-size: 1.1rem; }
 
 .info-card {
   padding: 20px 30px 20px 30px;
