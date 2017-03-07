@@ -40,13 +40,13 @@ hr.small-divide {
 .main-headerz {
   text-align: center;
   background-repeat: no-repeat; }
-  @media (min-width: 813px) {
+  @media all and (min-width: 813px) {
     .main-headerz {
       background-size: 1000px auto; } }
-  @media (max-width: 679px) {
+  @media all and (max-width: 679px) {
     .main-headerz {
       background-size: 400px auto; } }
-  @media (min-width: 680px) and (max-width: 812px) {
+  @media all and (min-width: 680px) and (max-width: 812px) {
     .main-headerz {
       background-size: 800px auto; } }
   .main-headerz h1 {
@@ -124,11 +124,11 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
-@media (min-width: 681px) {
+@media all and (min-width: 681px) {
   .big-banner {
     padding-top: 75px;
     padding-bottom: 20px; } }
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   .big-banner {
     padding-top: 100px;
     padding-bottom: 30px; } }
@@ -146,17 +146,17 @@ h1 {
     text-shadow: 1px 2px 2px black;
     text-align: center; }
 
-@media (min-width: 681px) {
+@media all and (min-width: 681px) {
   .bigpadding {
     padding: 150px; } }
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   .bigpadding {
     padding: 100px 30px 50px 30px; } }
 
-@media (min-width: 681px) {
+@media all and (min-width: 681px) {
   .mediumpadding {
     padding: 100px 100px 75px 100px; } }
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   .mediumpadding {
     padding: 100px 30px 50px 30px; } }
 
@@ -173,10 +173,10 @@ p {
 .call-out p {
   color: #ffffff;
   text-shadow: 1px 2px 2px black; }
-@media (max-width: 400px) {
+@media all and (max-width: 400px) {
   .call-out {
     padding: 30px; } }
-@media (min-width: 401px) {
+@media all and (min-width: 401px) {
   .call-out {
     padding: 100px; } }
 
@@ -219,7 +219,7 @@ ul.topnav li.icon {
   display: none; }
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   ul.topnav li:not(:first-child) {
     display: none; }
 
@@ -227,7 +227,7 @@ ul.topnav li.icon {
     float: right;
     display: inline-block; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media (max-width: 680px) {
+@media all and (max-width: 680px) {
   ul.topnav.responsive {
     position: relative; }
 
@@ -253,11 +253,11 @@ ul.topnav li.icon {
   display: flex;
   align-items: center;
   flex-direction: row; }
-  @media (min-width: 681px) {
+  @media all and (min-width: 681px) {
     .project-stage-container {
       flex-direction: row;
       padding: 75px; } }
-  @media (max-width: 680px) {
+  @media all and (max-width: 680px) {
     .project-stage-container {
       flex-direction: column;
       padding: 20px; } }
@@ -269,21 +269,21 @@ ul.topnav li.icon {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin: 0; }
-  @media (min-width: 681px) {
+  @media all and (min-width: 681px) {
     .descriptor {
       margin-right: 50px; } }
-  @media (max-width: 680px) {
+  @media all and (max-width: 680px) {
     .descriptor {
       margin-right: 5px; } }
 
 .visual {
   flex-grow: 1; }
-  @media (min-width: 900px) {
+  @media all and (min-width: 900px) {
     .visual img {
       max-height: 500px;
       max-width: 500px;
       float: right; } }
-  @media (max-width: 899px) {
+  @media all and (max-width: 899px) {
     .visual img {
       max-height: auto;
       max-width: 300px;
@@ -345,7 +345,7 @@ ul.topnav li.icon {
 .cell {
   margin: 5px; }
 
-@media (min-width: 600px) {
+@media all and (min-width: 600px) {
   div.photo-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -358,7 +358,7 @@ ul.topnav li.icon {
   .cell {
     width: calc(50% - 2rem);
     float: none; } }
-@media (min-width: 1000px) {
+@media all and (min-width: 1000px) {
   .cell {
     width: calc(33.3333% - 2rem); } }
 .project-thumbz h3 {
@@ -372,11 +372,11 @@ ul.topnav li.icon {
   text-align: center;
   align-content: space-around;
   justify-content: center; }
-  @media (min-width: 680px) {
+  @media all and (min-width: 680px) {
     .project-thumbnail_section {
       flex-direction: row;
       align-content: stretch; } }
-  @media (max-width: 679px) {
+  @media all and (max-width: 679px) {
     .project-thumbnail_section {
       flex-direction: column;
       align-items: center; }
@@ -386,14 +386,14 @@ ul.topnav li.icon {
       .project-thumbnail_section img {
         max-width: 300px;
         height: auto; } }
-  @media (min-width: 980px) {
+  @media all and (min-width: 980px) {
     .project-thumbnail_section .project_thumb {
       max-width: 300px;
       margin: 20px 10px 20px 10px; }
     .project-thumbnail_section img {
       max-width: 300px;
       height: auto; } }
-  @media (max-width: 979px) and (min-width: 680px) {
+  @media all and (max-width: 979px) and (min-width: 680px) {
     .project-thumbnail_section .project_thumb {
       max-width: 200px;
       margin: 15px; }
