@@ -1,0 +1,10 @@
+
+<div class="image-steps project-stage-container">
+  {% for image in page.images %}
+  <div class="image-step">
+    <img src="{{ image.image_path }}">
+    <h3 class="{{ page.img-step-color2 }}">{{ image.title }}</h3>
+    <p class="{{ page.img-step-color }}">{{ image.description }}  <a class="{{ page.linkclass }}" href="{{ image.link }}">View</a> </p>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,17 @@
+<div class="project-stage-container {{ include.pjc-color }}">
+    <div class="descriptor" style="margin-right: 20px;">
+      <h2 class="{{ include.title_color }}">{{ include.title }}</h2>
+      <p class="{{ include.leadin_color }}">{{ include.lead-in }} </p>
+    </div>
+    <div class="visual">
+      <div class="stage-images">
+        {% for image in page.images %}
+          <div class="cell-stage">
+            <a href="{{ image.link }}" target="_blank">
+              <img src="{{ image.image_path }}" alt="{{ image.title}}">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+</div>

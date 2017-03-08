@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{% include main-header.html %}
+
+<div class="about smallpadding project-thumbnail_section">
+  {% include about.html fontawesome="graduation-cap" about_title="Education" aboutme_desc="In 2011, I graduated with a Bachelor of Arts from the University of Maryland, College Park, MD." %}
+  {% include about.html fontawesome="paint-brush" about_title="Why UI and Product Design?" aboutme_desc="I've always been considered a creative person. I taught myself HTML when I was ten years old, and I love the idea of using design to solve problems." %}
+  {% include about.html fontawesome="soccer-ball-o" about_title="Hobbies" aboutme_desc="Search UI design blogs for inspiration, painting, traveling, and spending time with family and friends." %}
+</div>
+
+<a name="projects">
+
+
+<div style="background-color: #{{ page.secbg_color }}; padding-top: 30px; padding-bottom: 30px;">
+  <h2 class="lite-content" style="text-align: center; padding-top: 50px; padding-bottom: 20px;">Major Projects</h2>
+  <div class="project-thumbnail_section">
+    {% include project_thumbnails.html project_title="COPD Care Plan" project_image="/images/backgrounds/copd-macbook.jpg" project_description="I worked with a large team at ViiMed to build a care plan for COPD patients that involved a virtual journey and some gamification." project_link="/project1.html" %}
+    {% include project_thumbnails.html project_title="ViiMed Website" project_image="/images/feature/viimed-web.jpg" project_description="The ViiMed Website went through a lot of iterations. I collaborated with the CEO and Marketing team each time it went under renovation." project_link="/project2.html"%}
+    {% include project_thumbnails.html project_title="Care Coordinator Dashboard" project_image="/images/feature/console.jpg" project_description="I worked directly with a cardiologist to come up with a Congestive Heart Failure program to build with ViiMed’s platform." project_link="/project3.html" %}
+  </div>
+</div>
+</a>
+<!-- resume -->
+<div class="holder">
+  <center>
+  <div class="card card-size">
+    <h2 class="dark-neutral" style="text-align: center; padding-top: 50px; padding-bottom: 20px;">Experience</h2>
+    <h2>
+      {% include resume.html employer="ViiMed" employer-desc="Telehealth software company that delivers personalized care plans to patients while providers monitor and communicate with them via the platform." years="2014 - 2017" position="<br />Product Designer / Creative Director"
+      description="Developed high fidelity mockups and portotypes based on client feedback and collaborated with Lead UI/UX Designer to create gamified experiences and develop intuitive solutions for the platform." position2="UI / UX and Graphic Design Intern" description2 ="Switched career direction to pursue my passion for
+creative design through internship with Viimed. Was
+offered a full time position within 3 weeks." %}
+{% include resume.html employer="Integrated Training Solutions (ITS)" employer-desc="Government contract that managed NLSC Program, a
+group of volunteers who provide language resources to
+U.S. federal agencies." years="2012 - 2014" position="<br />Marketing Coordinator"
+description="Produced graphics for marketing and outreach
+campaigns for more than 4,800 volunteer members and Conducted market research through questionnaires for
+strategic market expansion." %}
+  </div>
+</center>
+</div>
+<div class="mediumpadding_middle">
+  <h2 class="generic" style="text-align: center;">Skills & Languages</h2>
+  <div class="skills-container">
+    <div class="skills">
+      {% include skill.html progress="90" type="Spanish" color="green" type-color="1abc9c" %}
+      {% include skill.html progress="75" type="HTML" color="blue" type-color="2196F3" %}
+      {% include skill.html progress="65" type="CSS" color="blue" type-color="2196F3" %}
+      {% include skill.html progress="35" type="JavaScript & JQuery" color="blue" type-color="2196F3" %}
+      {% include skill.html progress="85" type="Adobe Illustrator" color="myblue" type-color="3859f9" %}
+    </div>
+    <div class="skills">
+      {% include skill.html progress="85" type="Photoshop" color="myblue" type-color="3859f9" %}
+      {% include skill.html progress="65" type="Adobe InDesign" color="myblue" type-color="3859f9" %}
+      {% include skill.html progress="85" type="OmniGraffle" color="coral" type-color="e95d4f" %}
+      {% include skill.html progress="60" type="Sketch" color="coral" type-color="e95d4f" %}
+      {% include skill.html progress="85" type="PowerPoint & Keynote" color="orange" type-color="f39c12" %}
+    </div>
+  </div>
+</div>
