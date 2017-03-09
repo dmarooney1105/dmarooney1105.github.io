@@ -2,6 +2,9 @@ $primarycolor: #3859f9;
 $contentcolor-dark: #555555;
 $contentcolor-inbetween: #797979;
 $contentcolor-lite: #ffffff;
+$parrot-green: #1abc9c;
+$bland-lite: #ecf0f1;
+$canary: #38baf9;
 // font-family: 'Raleway', sans-serif;
 // font-family: 'Source Sans Pro', sans-serif;
 
@@ -118,50 +121,48 @@ text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
 background-color: $contentcolor-lite;
 }
 .canary {
-  background-color: #38baf9;
+  background-color: $canary;
 }
 .canary-link {
-  color: #38baf9;
+  color: $canary;
   text-decoration: none;
   font-weight: 500;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .parrot {
   background-color: #7838f9;
 }
-a.neutral {
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: $primarycolor;
-  margin-left: 5px;
-  &:hover {
-    color: $contentcolor-inbetween;
-  }
-}
-a.neutral-buttonz {
+
+#neutral-buttonz {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
-  color: $primarycolor;
-  margin-left: 5px;
-}
-a.neutral-buttonz:hover {
+  font-weight: 300;
+  // color: $contentcolor-dark;
   color: $contentcolor-lite;
+  margin-left: 5px;
 }
-.neutral-button {
-  max-width: 200px;
+#neutral-buttonz:hover {
+  color: $contentcolor-dark;
+}
+#neutral-button {
+  width: 150px;
   border-radius: 5px;
   padding: 10px 5px;
-  border: solid 2px $contentcolor-lite;
-  background-color: $contentcolor-lite;
+  border: solid 1px $parrot-green;
+  background-color: $parrot-green;
   -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -ms-transition: all 5s ease-out;
+    -webkit-box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.13);
+    box-shadow: 0px 1px 0px 1px rgba(0,0,0,0.13);
+
 }
-.neutral-button:hover {
-  border: solid 2px $primarycolor;
-  background-color: $primarycolor;
+#neutral-button:hover {
+  border: solid 1px $bland-lite;
+  background-color: $bland-lite;
 }
 h1 {
   margin: 0;
@@ -230,7 +231,7 @@ h1 {
 }
 .smallpadding {
   @media all and (min-width: 681px){
-    padding: 50px 50px 50px 50px;
+    padding: 5px 50px 50px 50px;
   }
   @media all and (max-width: 680px){
     padding: 0 30px 50px 30px;
@@ -498,13 +499,13 @@ display: flex;
 
 .gallery-container {
   max-width: 1200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 75px;
   h2 {
     font-family: 'Raleway', sans-serif;
     color: $contentcolor-dark;
     font-weight: 400;
-    padding: 20px;
+    padding: 10px 20px 50px 0;
   }
 }
 .website-thumbs {
@@ -542,9 +543,9 @@ iframe {
 .card {
   border-radius: 5px;
   background-color: $contentcolor-lite;
-  -webkit-box-shadow: 1.5px 1.5px 3px 1.5px rgba(0,0,0,0.25);
-  -moz-box-shadow: 1.5px 1.5px 3px 1.5px rgba(0,0,0,0.25);
-  box-shadow: 1.5px 1.5px 3px 1.5px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 1px 1px 0.5px 2px rgba(0,0,0,0.13);
+-moz-box-shadow: 1px 1px 0.5px 2px rgba(0,0,0,0.13);
+box-shadow: 1px 1px 0.5px 2px rgba(0,0,0,0.13);
 }
 .card-size {
   max-width: 800px;
@@ -653,14 +654,27 @@ transition: .5s ease;
 
 
 .project-thumbz {
+  background-color: $contentcolor-lite;
+  border-radius: 3px;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
+  box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
   h3 {
-      color: $contentcolor-lite;
+      color: $contentcolor-dark;
+      font-weight: 400;
   }
   p {
-      color: $contentcolor-lite;
+      // color: $contentcolor-lite;
       font-weight: 300;
+      padding-bottom: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
   }
-
+  img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
 }
 
 .project-thumbnail_section {
@@ -672,6 +686,7 @@ display: flex;
   text-align: center;
   align-content: space-between;
   justify-content: center;
+  padding-bottom: 50px;
   @media all and (min-width: 680px){
     -webkit-box-orient: horizontal;
 -moz-box-orient: horizontal;
@@ -680,59 +695,78 @@ display: flex;
 -webkit-flex-direction: row;
 -ms-flex-direction: row;
 flex-direction: row;
-    align-content: stretch;
   }
-  @media all and (max-width: 679px){
+  @media all and (max-width: 759px){
     flex-direction: column;
     align-items: center;
     .project_thumb {
-      max-width: 300px;
+      max-width: 400px;
       margin: 20px 15px 20px 15px;
+      padding-bottom: 20px;
     }
     img {
-      max-width: 300px;
+      max-width: 400px;
       height: auto;
+      align-self: center;
+    }
+    .ps-button {
+      left: 29%;
+      padding-bottom: 15px;
     }
   }
   @media all and (min-width: 980px){
     .project_thumb {
       max-width: 300px;
-      margin: 20px 10px 20px 10px;
+      margin: 20px 15px 20px 15px;
+      .ps-button {
+        left: 23%;
+      }
+      // align-self: stretch;
     }
     img {
       max-width: 300px;
-      height: auto;
+      height: 200px;
     }
   }
-  @media all and (max-width: 979px) and (min-width: 680px){
+  @media all and (max-width: 979px) and (min-width: 759px){
     .project_thumb {
-      max-width: 200px;
-      margin: 15px;
+      max-width: 220px;
+      margin: 10px 25px 20px 25px;
+    }
+    .ps-button {
+      left: 13%;
     }
     img {
-      max-width: 200px;
+      max-width: 220px;
       height: auto;
     }
   }
   .project_thumb {
     display: -webkit-box;
-display: -moz-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-direction: column;
+
     // justify-content: space-between;
   }
 }
 .project_thumb {
   h3 {
     font-family: 'Raleway', sans-serif;
+    margin: 15px;
   }
   p {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin: 0;
   }
+}
+.ps-button {
+  position: absolute;
+  bottom: 15px;
 }
 
 // end thumbnails
@@ -921,7 +955,7 @@ display: flex;
     padding: 50px;
   }
   @media all and (max-width: 699px){
-    padding: 20px;
+    padding: 0;
   }
 }
 .skill {
@@ -942,7 +976,11 @@ display: flex;
   }
 }
 
-
+.inner-youth {
+  -webkit-box-shadow: inset 0px 1px 0.5px 1px rgba(0,0,0,0.13);
+-moz-box-shadow: inset 0px 1px 0.5px 1px rgba(0,0,0,0.13);
+box-shadow: inset 0px 1px 0.5px 1px rgba(0,0,0,0.13);
+}
 .w3-green,.w3-green:hover{color:#fff!important;background-color:#1abc9c!important}
 .w3-myblue,.w3-myblue:hover{color:#fff!important;background-color:#3859f9!important}
 .w3-coral,.w3-coral:hover{color:#fff!important;background-color:#e95d4f!important}
