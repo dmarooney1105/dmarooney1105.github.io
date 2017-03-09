@@ -107,20 +107,12 @@ h2 {
   color: #38baf9;
   text-decoration: none;
   font-weight: 500;
-  letter-spacing: 1.2px;
-  font-size: 16px; }
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .parrot {
   background-color: #7838f9; }
-
-a.neutral {
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #3859f9;
-  margin-left: 5px; }
-  a.neutral:hover {
-    color: #797979; }
 
 #neutral-buttonz {
   text-decoration: none;
