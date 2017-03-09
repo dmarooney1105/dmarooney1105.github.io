@@ -820,7 +820,7 @@ ul.topnav li.icon {
       padding: 50px; } }
   @media all and (max-width: 699px) {
     .skills {
-      padding: 20px; } }
+      padding: 0; } }
 
 .skill {
   font-family: 'Raleway', sans-serif;
