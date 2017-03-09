@@ -615,13 +615,15 @@ ul.topnav li.icon {
       align-items: center; }
       .project-thumbnail_section .project_thumb {
         max-width: 400px;
-        margin: 20px 15px 20px 15px; }
+        margin: 20px 15px 20px 15px;
+        padding-bottom: 20px; }
       .project-thumbnail_section img {
         max-width: 400px;
         height: auto;
         align-self: center; }
       .project-thumbnail_section .ps-button {
-        left: 29%; } }
+        left: 29%;
+        padding-bottom: 15px; } }
   @media all and (min-width: 980px) {
     .project-thumbnail_section .project_thumb {
       max-width: 300px;
@@ -635,8 +637,8 @@ ul.topnav li.icon {
     .project-thumbnail_section .project_thumb {
       max-width: 220px;
       margin: 10px 25px 20px 25px; }
-      .project-thumbnail_section .project_thumb .ps-button {
-        left: 13%; }
+    .project-thumbnail_section .ps-button {
+      left: 13%; }
     .project-thumbnail_section img {
       max-width: 220px;
       height: auto; } }
