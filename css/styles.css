@@ -202,7 +202,7 @@ h1 {
 
 @media all and (min-width: 681px) {
   .smallpadding {
-    padding: 50px 50px 50px 50px; } }
+    padding: 5px 50px 50px 50px; } }
 @media all and (max-width: 680px) {
   .smallpadding {
     padding: 0 30px 50px 30px; } }
