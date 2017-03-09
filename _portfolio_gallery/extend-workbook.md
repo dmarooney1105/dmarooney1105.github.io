@@ -4,4 +4,5 @@ type: Marketing
 title: Extend Workbook
 link: https://simplebooklet.com/extendbook
 tools: Photoshop, Illustrator
+weight: 8
 ---

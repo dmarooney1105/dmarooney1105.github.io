@@ -4,4 +4,5 @@ type: Marketing
 title: Tradeshow Banner
 link: /images/showcase/tradeshow-all.jpg
 tools: Photoshop, Illustrator
+weight: 16
 ---

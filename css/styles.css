@@ -434,13 +434,13 @@ ul.topnav li.icon {
 
 .gallery-container {
   max-width: 1200px;
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 50px;
+  padding-bottom: 75px; }
   .gallery-container h2 {
     font-family: 'Raleway', sans-serif;
     color: #555555;
     font-weight: 400;
-    padding: 20px; }
+    padding: 10px 20px 50px 0; }
 
 .website-thumbs {
   max-width: 1000px;

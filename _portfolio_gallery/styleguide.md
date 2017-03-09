@@ -4,4 +4,5 @@ type: Marketing
 title: ViiMed Style Guide
 link: https://simplebooklet.com/viimedstyleguide
 tools: Photoshop, Illustrator
+weight: 4
 ---
