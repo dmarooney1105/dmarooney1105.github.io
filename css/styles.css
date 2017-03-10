@@ -601,7 +601,7 @@ ul.topnav li.icon {
       -webkit-flex-direction: row;
       -ms-flex-direction: row;
       flex-direction: row; } }
-  @media all and (max-width: 759px) {
+  @media all and (max-width: 759px) and (min-width: 450px) {
     .project-thumbnail_section {
       flex-direction: column;
       align-items: center; }
@@ -615,6 +615,21 @@ ul.topnav li.icon {
         align-self: center; }
       .project-thumbnail_section .ps-button {
         left: 29%;
+        padding-bottom: 15px; } }
+  @media all and (max-width: 449px) {
+    .project-thumbnail_section {
+      flex-direction: column;
+      align-items: center; }
+      .project-thumbnail_section .project_thumb {
+        max-width: 300px;
+        margin: 20px 15px 20px 15px;
+        padding-bottom: 20px; }
+      .project-thumbnail_section img {
+        max-width: 300px;
+        height: auto;
+        align-self: center; }
+      .project-thumbnail_section .ps-button {
+        left: 23%;
         padding-bottom: 15px; } }
   @media all and (min-width: 980px) {
     .project-thumbnail_section .project_thumb {
