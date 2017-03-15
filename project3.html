@@ -22,25 +22,30 @@
     <meta name="viewport" content="width=device-width" />
     <title>Daniella Marooney Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/d0b9800874.js"></script>
   </head>
   <body>
     <header>
-      <div class="container">
-        <!-- *ask cam how to add name or logo or something on left side* -->
-        <nav class="main_nav">
-          <ul class="topnav" id="myTopnav">
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-            </li>
-            <li><a href="/" >Home</a></li>
-            <li><a href="/#projects" >Projects</a></li>
-            <li><a href="/showcase.html" >Showcase</a></li>
-          </ul>
-        </nav>
+  <div class="container">
+    <!-- *ask cam how to add name or logo or something on left side* -->
+    <nav class="main_nav">
+      <div class="left-nav">
+        <a href="/"><h2>DM</h2></a>
       </div>
-    </header>
+      <div class="right-nav">
+        <ul class="topnav" id="myTopnav">
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+          <li><a href="/#projects" >Projects</a></li>
+          <li><a href="/showcase.html" >Showcase</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
     <div class="content">
       <section class="big-banner" style="background-color: #e03d46;">
   <div class="project-stage-container">
@@ -82,19 +87,19 @@
   <div class="image-step">
     <img src="/images/project_stages/console-2thumb.png" />
     <h3 class="lite-content">Mockup 1</h3>
-    <p class="lite-content">This mockup shows the typical way doctors read, according to the cardiologist I worked with. The black paragraph you see on the upper left of the patients' progress bar is a string of data collected from the enrollment form (the nurse fills out a form on the software to enroll the patient into the program prior to when they leave the hospital).The mockup also shows a readmissions risk percentage for each patient which would also be calculated by the medical history entered on the enrollment form and the care plan activities.  <a class="canary-link" href="/images/project_stages/console2.png">View</a> </p>
+    <p class="lite-content">This mockup shows the typical way doctors read, according to the cardiologist I worked with. The black paragraph you see on the upper left of the patients' progress bar is a string of data collected from the enrollment form (the nurse fills out a form on the software to enroll the patient into the program prior to when they leave the hospital).The mockup also shows a readmissions risk percentage for each patient which would also be calculated by the medical history entered on the enrollment form and the care plan activities.  <a style="margin-left: 5px; padding-bottom: 5px;" class="canary-link hvr-underline-from-center" href="/images/project_stages/console2.png">View</a> </p>
   </div>
   
   <div class="image-step">
     <img src="/images/project_stages/console1-thumb.png" />
     <h3 class="lite-content">Mockup 2</h3>
-    <p class="lite-content">Here we have the care coordinator or nurse's tasklist embedded within their dashboard where they manage their patients (two interfaces becoming one so they don't have to jump back and forth). This version also provides an overall view of each patient's severity rating. If you click on the individual dot on the scatterplot, you would essentially be able to "drill down" into that patient's medical profile.  <a class="canary-link" href="/images/project_stages/console1.png">View</a> </p>
+    <p class="lite-content">Here we have the care coordinator or nurse's tasklist embedded within their dashboard where they manage their patients (two interfaces becoming one so they don't have to jump back and forth). This version also provides an overall view of each patient's severity rating. If you click on the individual dot on the scatterplot, you would essentially be able to "drill down" into that patient's medical profile.  <a style="margin-left: 5px; padding-bottom: 5px;" class="canary-link hvr-underline-from-center" href="/images/project_stages/console1.png">View</a> </p>
   </div>
   
   <div class="image-step">
     <img src="/images/project_stages/console-prototype.png" />
     <h3 class="lite-content">Mockup 3</h3>
-    <p class="lite-content">This last mockup is the one we concluded with. It shows a high level view of the amount of patients in each severity category, and allows for generic use for all use-cases. I will go into more detail regarding the purpose for the generic use later on. We discussed that this dashboard view was essentially easier for development to tweak as it contained the majority of the existing features, but in a different layout.  <a class="canary-link" href="/images/feature/console-big.png">View</a> </p>
+    <p class="lite-content">This last mockup is the one we concluded with. It shows a high level view of the amount of patients in each severity category, and allows for generic use for all use-cases. I will go into more detail regarding the purpose for the generic use later on. We discussed that this dashboard view was essentially easier for development to tweak as it contained the majority of the existing features, but in a different layout.  <a style="margin-left: 5px; padding-bottom: 5px;" class="canary-link hvr-underline-from-center" href="/images/feature/console-big.png">View</a> </p>
   </div>
   
 </div>
@@ -128,6 +133,7 @@ I took into account feedback received from the orthopedic nurses about moving ba
     
   </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -136,5 +142,21 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
-}
+};
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 </script>

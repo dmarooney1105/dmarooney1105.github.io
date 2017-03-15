@@ -22,25 +22,30 @@
     <meta name="viewport" content="width=device-width" />
     <title>Daniella Marooney Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/d0b9800874.js"></script>
   </head>
   <body>
     <header>
-      <div class="container">
-        <!-- *ask cam how to add name or logo or something on left side* -->
-        <nav class="main_nav">
-          <ul class="topnav" id="myTopnav">
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-            </li>
-            <li><a href="/" >Home</a></li>
-            <li><a href="/#projects" >Projects</a></li>
-            <li><a href="/showcase.html" >Showcase</a></li>
-          </ul>
-        </nav>
+  <div class="container">
+    <!-- *ask cam how to add name or logo or something on left side* -->
+    <nav class="main_nav">
+      <div class="left-nav">
+        <a href="/"><h2>DM</h2></a>
       </div>
-    </header>
+      <div class="right-nav">
+        <ul class="topnav" id="myTopnav">
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+          <li><a href="/#projects" >Projects</a></li>
+          <li><a href="/showcase.html" >Showcase</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
     <div class="content">
       <section class="big-banner" style="background-color: #3859f9;">
   <div class="project-stage-container">
@@ -211,6 +216,7 @@
     
   </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -219,5 +225,21 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
-}
+};
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 </script>

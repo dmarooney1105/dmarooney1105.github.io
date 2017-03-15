@@ -1,9 +1,18 @@
-<div class="info-card">
-  <h3>{{ include.employer }}</h3>
-  <p class="company">{{ include.employer-desc }}</p>
-  <h4>{{ include.years }}</h4>
-  <h5>{{ include.position }}</h5>
-  <p class="resume">{{ include.description }}</p>
-  <h5>{{ include.position2 }}</h5>
-  <p class="resume">{{ include.description2 }}</p>
+<div class="holder">
+  <center>
+  <div class="card card-size">
+    <h2 class="dark-neutral" style="text-align: center; padding-top: 50px; padding-bottom: 20px;">Experience</h2>
+    <h2>
+      {% include resume_experience.html employer="ViiMed" employer-desc="Telehealth software company that delivers personalized care plans to patients while providers monitor and communicate with them via the platform." years="2014 - 2017" position="<br />Product Designer / Creative Director"
+      description="Developed high fidelity mockups and prototypes based on client feedback and collaborated with Lead UI/UX Designer to create gamified experiences and develop intuitive solutions for the platform." position2="UI / UX and Graphic Design Intern" description2 ="Switched career direction to pursue my passion for
+creative design through internship with Viimed. Was
+offered a full time position within 3 weeks." %}
+{% include resume_experience.html employer="Integrated Training Solutions (ITS)" employer-desc="Government contract that managed NLSC Program, a
+group of volunteers who provide language resources to
+U.S. federal agencies." years="2012 - 2014" position="<br />Marketing Coordinator"
+description="Produced graphics for marketing and outreach
+campaigns for more than 4,800 volunteer members and Conducted market research through questionnaires for
+strategic market expansion." %}
+  </div>
+</center>
 </div>

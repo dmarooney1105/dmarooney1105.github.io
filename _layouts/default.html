@@ -22,25 +22,11 @@
     <meta name="viewport" content="width=device-width" />
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/d0b9800874.js"></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <!-- *ask cam how to add name or logo or something on left side* -->
-        <nav class="main_nav">
-          <ul class="topnav" id="myTopnav">
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-            </li>
-            <li><a href="/" {% if page.url=="/" %}class="active"{% endif %}>Home</a></li>
-            <li><a href="/#projects" {% if page.url=="/#projects" %}class="active"{% endif %}>Projects</a></li>
-            <li><a href="/showcase.html" {% if page.url=="/showcase.html" %}class="active"{% endif %}>Showcase</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    {% include header.html %}
     <div class="content">
       {{ content }}
     </div>
@@ -61,6 +47,7 @@
     {% endif %}
   </body>
 </html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -69,5 +56,21 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
-}
+};
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
 </script>
