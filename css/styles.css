@@ -1,8 +1,14 @@
+.grapefruit {
+  color: #ff6f69; }
+
+.grapefruit-bg {
+  background-color: #ff6f69; }
+
 body {
   margin: 0; }
 
 footer {
-  background-color: #3859f9;
+  background-color: #5588ff;
   padding: 15px 15px 10px 15px; }
 
 .container-footer {
@@ -37,7 +43,7 @@ footer {
   text-align: right;
   margin: 10px; }
 .right-footer a.social:hover, .left-footer a.social:hover {
-  color: #38baf9; }
+  color: #ffcc5c; }
 
 .right-footer {
   display: -webkit-box;
@@ -70,7 +76,7 @@ hr.small-divide {
     .main-headerz {
       background-size: 800px auto; } }
   .main-headerz h1 {
-    color: #3859f9;
+    color: #5588ff;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin: 0;
@@ -85,7 +91,7 @@ h2 {
   margin: 0; }
 
 .primary {
-  color: #3859f9; }
+  color: #5588ff; }
 
 .dark-neutral {
   color: #555555; }
@@ -128,8 +134,8 @@ h2 {
   width: 150px;
   border-radius: 5px;
   padding: 10px 5px;
-  border: solid 1px #1abc9c;
-  background-color: #1abc9c;
+  border: solid 1px #1150A7;
+  background-color: #1150A7;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -ms-transition: all 5s ease-out;
@@ -296,10 +302,10 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover, ul.topnav li a:focus {
-  color: #3859f9; }
+  color: #5588ff; }
 
 ul.topnav li a.active {
-  color: #3859f9; }
+  color: #5588ff; }
 
 .hvr-underline-from-center {
   display: inline-block;
@@ -504,7 +510,7 @@ ul.topnav li.icon {
 .holder {
   padding: 50px 30px 50px 30px;
   margin: 0;
-  background-color: #efefef; }
+  background-color: #f4f4f4; }
 
 .card {
   border-radius: 5px;
@@ -841,14 +847,14 @@ ul.topnav li.icon {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0; }
   @media all and (max-width: 650px) {
     .skills-container {
@@ -860,32 +866,62 @@ ul.topnav li.icon {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column; }
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
   @media all and (min-width: 700px) {
     .skills {
-      padding: 50px; } }
+      padding: 10px; } }
   @media all and (max-width: 699px) {
     .skills {
       padding: 0; } }
 
 .skill {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
   font-family: 'Raleway', sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
   font-weight: 400;
-  font-size: .9rem;
-  padding: 15px; }
+  font-size: 1.2rem;
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.05); }
   .skill h3 {
-    text-align: left;
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 3px;
-    margin-top: 0;
-    margin-bottom: 5px; }
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffffff; }
+  .skill .dripicons {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center; }
 
 .inner-youth {
   -webkit-box-shadow: inset 0px 1px 0.5px 1px rgba(0, 0, 0, 0.13);
