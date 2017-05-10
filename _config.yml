@@ -33,3 +33,5 @@ exclude:
   - Gemfile.lock
 collections:
   - portfolio_gallery
+# Google services
+google_analytics: UA-93373642-1

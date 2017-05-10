@@ -3,7 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-secbg_color: 1abc9c
+secbg_color: 1150A7
 images:
   - image_path: /images/backgrounds/copd-macbook.jpg
     title: COPD
