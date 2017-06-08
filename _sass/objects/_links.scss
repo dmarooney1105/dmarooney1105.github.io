@@ -45,7 +45,13 @@ a.default {
 a.default:hover{
   color: $highlighter;
 }
-
+a.visited {
+  color: $secondary-color;
+  font-family: $body-font;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all 5s ease-out;
+}
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
