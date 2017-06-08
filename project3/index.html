@@ -47,12 +47,22 @@
           </li>
           <li class="pica"><a href="/contact/" >Contact</a></li>
           <li class="pica"><a href="/#projects" >Projects</a></li>
-          <li class="pica"><a href="/showcase" >Showcase</a></li>
+          <li class="pica"><a href="/showcase/" >Showcase</a></li>
         </ul>
       </div>
     </nav>
   </div>
 </header>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+};
+</script>
 
     <div class="content">
       <div class="container-large">
@@ -198,15 +208,6 @@
   </body>
 </html>
 <script>
-$(document).ready(function(){
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-};
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -233,5 +234,5 @@ $(function() {
 
 
 
-});
+
 </script>
