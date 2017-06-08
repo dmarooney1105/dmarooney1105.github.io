@@ -35,14 +35,14 @@ a {
   right: 0;
 }
 
-a.default {
+a.defaulter {
   color: $secondary-color;
   font-family: $body-font;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -ms-transition: all 5s ease-out;
 }
-a.default:hover{
+a.defaulter:hover{
   color: $highlighter;
 }
 a.visited {
