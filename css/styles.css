@@ -396,14 +396,14 @@ a {
   left: 0;
   right: 0; }
 
-a.default {
+a.defaulter {
   color: #1150A7;
   font-family: "Source Sans Pro", sans-serif;
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -ms-transition: all 5s ease-out; }
 
-a.default:hover {
+a.defaulter:hover {
   color: #ffcc5c; }
 
 a.visited {
