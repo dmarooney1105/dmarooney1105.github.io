@@ -1,12 +1,11 @@
 ---
 layout: projects
-title: ViiMed Website
-type: project
-gallery_image: /images/backgrounds/viimed1.png
+title: Whole CHS Living
+type:
 tags:
   - web design
   - web development
-permalink: /project2/
+permalink: /project4/
 feature-image: /images/feature/viimed-max.png
 description: The ViiMed website went under a lot of iterations. This page shows all the wireframes and Screenshots of different iterations of ViiMed's Website that I designed and developed.
 theme: default

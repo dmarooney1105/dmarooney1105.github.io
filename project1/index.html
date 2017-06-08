@@ -1,167 +1,222 @@
----
-layout: projects
-title: COPD Care Plan
-type: project
-permalink: /project1/
-gallery_image: /images/backgrounds/copd1.png
-feature-image: /images/feature/chscopd-gif.gif
-tags:
-  - product design
-  - gamification
-  - UI design
-description: ViiMed was asked by COPD Foundation to create an interactive educational program for patients diagnosed with COPD. Our ultimate goal was to engage, educate and change patient behavior.
-theme: default
-insight: COPD Foundation handed us their patient handout, The Big Fat Reference Guide, a 300 + page book filled with everything a patient would ever need to know. ViiMed's only healthcare experience thus far was in Orthopaedics but we knew our Chronic Disease template had to be more engaging for a patient population that was never going to be cured.
-problem-image: /images/bfrg.jpg
-collaborate: include
-collaboration: The majority of the company (CEO, developers, solution architects, marketing, product, designers etc.) met in a conference room together and broke off into teams to tackle different ideas and concepts for creating a personalized care pathway.<br /><br /> To make the content tailored to the patient we decided to divide the program into three separate care plans (mild, moderate and severe) and the patient was assigned a pathway based off their assessment score.
-collab_bg: /images/project_stages/workflow.jpg
-ideas: The Front-end Software Engineer and I worked together with the nurse that worked at the COPD Foundation to gain insight on users' behavior (both the nurse or 'coach' and the patient). <br /><br />We compared the product to many existing educational platforms and discovered that in order to make the program more engaging and interactive, we could introduce the idea of gamification. This would be the first time we introduced any sort of gamification ideal into the software.
-idea-image: /images/project_stages/points-1.png
-usbaility: I created usability surveys for both the patient and nurse team to receive input on our original experience that we laid out.<br /><br /> The feedback guided us to change the pathway names from “mild, moderate, or severe,”  to “Pathways 1, 2, & 3” (patients that were placed in severe became discouraged from the beginning).
-images_wireframes:
-  - image_path: /assets/ui-document.jpg
-    title: UI Document for Patient Dashboard
-    description: I created a UI document with existing widgets the platform already had (only the design was tweaked) in order to have a back-up plan for the minimum viable product.
-    link: /assets/dashboard-doc.pdf
-  - image_path: /images/project_stages/wrieframe-thumbnail.png
-    title: The Dashboard with Gamification
-    description: These collection of wireframes show the gamification ideas like integrating our platform with the COPD Foundation’s social media site, trophy rooms where where patients could use their points to “purchase” helpful items (bluetooth inhalers, pulse oximeters etc. that integrated with our software).
-    link: /assets/dashboards-wireframes3.pdf
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5588ff">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Daniella Marooney Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/images/webfont/webfont.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Roboto+Condensed:300,400" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d0b9800874.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <div class="container-large container collaboration invert-shadow" style="background-image:linear-gradient(
+  ga('create', 'UA-93373642-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+  </head>
+  <body>
+    <header>
+  <div class="nav-container">
+    <!-- *ask cam how to add name or logo or something on left side* -->
+    <nav class="main_nav">
+      <div class="left-nav logo">
+        <a href="/" class="home"><img src="/images/dmelephantt.png"</a>
+      </div>
+      <div class="right-nav">
+        <ul class="topnav" id="myTopnav">
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+          <li class="pica"><a href="/contact/" >Contact</a></li>
+          <li class="pica"><a href="/#projects" >Projects</a></li>
+          <li class="pica"><a href="/showcase" >Showcase</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+    <div class="content">
+      <div class="container-large">
+  <div project-intro="default">
+    <h1 class="canon default">COPD Care Plan</h1>
+    <p class="long-primer">ViiMed was asked by COPD Foundation to create an interactive educational program for patients diagnosed with COPD. Our ultimate goal was to engage, educate and change patient behavior.</p>
+    <img src="/images/feature/chscopd-gif.gif">
+
+  </div>
+</div>
+<div class="container-large" >
+  <div contain-pair="default">
+    <section class="copy" role="main">
+      <h2 class="trafalgar">Problem</h2>
+      <p class="long-primer">COPD Foundation handed us their patient handout, The Big Fat Reference Guide, a 300 + page book filled with everything a patient would ever need to know. ViiMed's only healthcare experience thus far was in Orthopaedics but we knew our Chronic Disease template had to be more engaging for a patient population that was never going to be cured.</p>
+    </section>
+    <aside class="preview" role="complementary">
+      <img src="/images/bfrg.jpg" class="mobile-resize">
+    </aside>
+  </div>
+</div>
+<div class="container-large container collaboration invert-shadow" style="background-image:linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ), url('{{ page.collab_bg }}');">
+    ), url('/images/project_stages/workflow.jpg');">
     <div class="invert-shadow">
       <h2 class="trafalgar">Collaboration</h2>
-      <p class="long-primer">{{ page.collaboration }}</p>
+      <p class="long-primer">The majority of the company (CEO, developers, solution architects, marketing, product, designers etc.) met in a conference room together and broke off into teams to tackle different ideas and concepts for creating a personalized care pathway.<br /><br /> To make the content tailored to the patient we decided to divide the program into three separate care plans (mild, moderate and severe) and the patient was assigned a pathway based off their assessment score.</p>
     </div>
   </div>
 
-<div class="container-large" >
-  <div contain-pair="{{ page.theme }}">
+<div class="container-large">
+  <div contain-pair="default">
     <section class="copy" role="main">
       <h2 class="trafalgar">Ideas</h2>
-      <p class="long-primer">{{ page.ideas }}</p>
+      <p class="long-primer">The Front-end Software Engineer and I worked together with the nurse that worked at the COPD Foundation to gain insight on users' behavior (both the nurse or 'coach' and the patient). <br /><br />We compared the product to many existing educational platforms and discovered that in order to make the program more engaging and interactive, we could introduce the idea of gamification. This would be the first time we introduced any sort of gamification ideal into the software.</p>
     </section>
     <aside class="preview" role="complementary">
-      <img src="{{ page.idea-image }}" class="mobile-resize">
+      <img src="/images/project_stages/points-1.png" class="mobile-resize" />
     </aside>
   </div>
 </div>
 
 <div class="container default">
-  <h2 class="trafalgar text-center" >Solutions</h2>
-  <h2 class="double-pica text-center" style="margin-top:20px; margin-bottom: 20px;" >Wireframes, Prototypes, and Final Products</h2>
+  <h2 class="trafalgar text-center">Solutions</h2>
+  <h2 class="double-pica text-center" style="margin-top:20px; margin-bottom: 20px;">Wireframes, Prototypes, and Final Products</h2>
 </div>
 
-<div id="dashboard" project-elements="show-stopper" class="container invert-shadow"  style="background-image:linear-gradient(
+<div id="dashboard" project-elements="show-stopper" class="container invert-shadow" style="background-image:linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.75)
   ), url('/images/backgrounds/copd-macbook.jpg');">
-  <h2 class="trafalgar" >The Dashboard</h2>
+  <h2 class="trafalgar">The Dashboard</h2>
 
 </div>
-<div  project-elements="left" class="container default" >
-  <h2 class="double-pica" >The Original Dashboard</h2>
-  <p class="long-primer" >Most of ViiMed's products up until this point, revolved around orthopedics, and therefore the patient did not need to have a "dashboard." They just logged in and went straight to their activity list. <br><br> The Solution Architects used the page builder on the software to create a patient dashboard. The page builder on ViiMed's platform, serves for simple projects such as libraries and such. </p>
+<div project-elements="left" class="container default">
+  <h2 class="double-pica">The Original Dashboard</h2>
+  <p class="long-primer">Most of ViiMed's products up until this point, revolved around orthopedics, and therefore the patient did not need to have a "dashboard." They just logged in and went straight to their activity list. <br /><br /> The Solution Architects used the page builder on the software to create a patient dashboard. The page builder on ViiMed's platform, serves for simple projects such as libraries and such. </p>
 
-    <img class="single" src="/images/copd-dashboard-before@2x.jpg" >
+    <img class="single" src="/images/copd-dashboard-before@2x.jpg" />
 
 </div>
-<div  project-elements="middle" class="container default" >
-  <h2 class="double-pica text-center" >Looks boring, right?</h2>
-  <p class="long-primer text-center" >With the thought of gamification in mind, I decided to begin sketching out wireframes that not only improved the overall look and feel of the dashboard, but also incorporated some gamification elements to it such as: unlocked achievement badges, a trophy room where patients could use their points to purchase a bluetooth inhaler that connected to the platform (or other goodies), etc. </p>
-  <div project-thumbnails>
+<div project-elements="middle" class="container default">
+  <h2 class="double-pica text-center">Looks boring, right?</h2>
+  <p class="long-primer text-center">With the thought of gamification in mind, I decided to begin sketching out wireframes that not only improved the overall look and feel of the dashboard, but also incorporated some gamification elements to it such as: unlocked achievement badges, a trophy room where patients could use their points to purchase a bluetooth inhaler that connected to the platform (or other goodies), etc. </p>
+  <div project-thumbnails="">
 
     <ul>
-      {% for image in page.images_wireframes %}
-      <li >
-      <div class="preview" style="background-position: center top; background-image: url('{{ image.image_path }}')">
+      
+      <li>
+      <div class="preview" style="background-position: center top; background-image: url('/assets/ui-document.jpg')">
       </div>
-        <h3 class="great-primer">{{ image.title }}</h3>
-        <p class="long-primer">{{ image.description }}</p>
+        <h3 class="great-primer">UI Document for Patient Dashboard</h3>
+        <p class="long-primer">I created a UI document with existing widgets the platform already had (only the design was tweaked) in order to have a back-up plan for the minimum viable product.</p>
         <center>
-        <br>
-        <a href="{{ image.link }}">View Document</a>
+        <br />
+        <a href="/assets/dashboard-doc.pdf">View Document</a>
         </center>
       </li>
-      {% endfor %}
+      
+      <li>
+      <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/wrieframe-thumbnail.png')">
+      </div>
+        <h3 class="great-primer">The Dashboard with Gamification</h3>
+        <p class="long-primer">These collection of wireframes show the gamification ideas like integrating our platform with the COPD Foundation’s social media site, trophy rooms where where patients could use their points to “purchase” helpful items (bluetooth inhalers, pulse oximeters etc. that integrated with our software).</p>
+        <center>
+        <br />
+        <a href="/assets/dashboards-wireframes3.pdf">View Document</a>
+        </center>
+      </li>
+      
     </ul>
   </div>
 </div>
-<div  project-elements="middle" class="container default" >
-  <h2 class="double-pica text-center" >The Final Dashboard Product</h2>
-  <p class="long-primer text-center" >Using the page builder and existing widgets, I had to override the existing CSS code on the backend of the software (using inspect-element to replace the styles of existing classes attached to the widgets) to make the widgets have the "square design" and intended hover and mobile-view effects. </p>
+<div project-elements="middle" class="container default">
+  <h2 class="double-pica text-center">The Final Dashboard Product</h2>
+  <p class="long-primer text-center">Using the page builder and existing widgets, I had to override the existing CSS code on the backend of the software (using inspect-element to replace the styles of existing classes attached to the widgets) to make the widgets have the "square design" and intended hover and mobile-view effects. </p>
 </div>
-<div before-after>
-  <div before >
+<div before-after="">
+  <div before="">
     <h3 class="great-primer">Mobile: Before</h3>
-    <img src="/images/og-dash-mobile@2x.png">
+    <img src="/images/og-dash-mobile@2x.png" />
   </div>
-  <div after >
+  <div after="">
     <h3 class="great-primer text-center">Mobile: After</h3>
-    <img src="/images/copd-dashboard-mobile1@2x.png">
-    <img src="/images/copd-dashboard-mobile2@2x.png">
+    <img src="/images/copd-dashboard-mobile1@2x.png" />
+    <img src="/images/copd-dashboard-mobile2@2x.png" />
   </div>
 </div>
-<div  project-elements="middle" class="container default" >
-  <h3 class="great-primer text-center" >Desktop View</h3>
+<div project-elements="middle" class="container default">
+  <h3 class="great-primer text-center">Desktop View</h3>
   <center>
-  <img src="/images/copd-desktop.png" class="single">
+  <img src="/images/copd-desktop.png" class="single" />
   </center>
 </div>
 
-<div contain-pair class="container alternate" id="gamification">
-  <section class="copy" role="main" >
+<div contain-pair="" class="container alternate" id="gamification">
+  <section class="copy" role="main">
     <h2 class="trafalgar">Gamification</h2>
-    <p class="long-primer">The Lead UX and UI Designer and I worked together with the nurse that worked at the COPD Foundation to gain insight on users behavior (both the coach and the patient). We did a lot of secondary research as well and read <a class="default hvr-underline-from-center" href="https://www.amazon.com/Gamification-Design-Implementing-Mechanics-Mobile/dp/1449397670/ref=sr_1_1?s=books&ie=UTF8&qid=1496231774&sr=1-1&keywords=9781449397678" style="font-weight: 400;"> Gamification by Design</a>  by Gabe Zichermann and Christopher Cunningham because we came up with the idea to gamify the experience for the patients in order to encourage them to participate in educating themselves on their disease to manage their health and elongate their life.</p>
+    <p class="long-primer">The Lead UX and UI Designer and I worked together with the nurse that worked at the COPD Foundation to gain insight on users behavior (both the coach and the patient). We did a lot of secondary research as well and read <a class="default hvr-underline-from-center" href="https://www.amazon.com/Gamification-Design-Implementing-Mechanics-Mobile/dp/1449397670/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1496231774&amp;sr=1-1&amp;keywords=9781449397678" style="font-weight: 400;"> Gamification by Design</a>  by Gabe Zichermann and Christopher Cunningham because we came up with the idea to gamify the experience for the patients in order to encourage them to participate in educating themselves on their disease to manage their health and elongate their life.</p>
   </section>
-  <aside class="preview" role="complementary" >
-    <img src="/images/gamification-book.jpg">
+  <aside class="preview" role="complementary">
+    <img src="/images/gamification-book.jpg" />
   </aside>
 </div>
-<div contain-pair class="container alternate2">
-  <section class="copy" role="main" >
+<div contain-pair="" class="container alternate2">
+  <section class="copy" role="main">
     <h2 class="double-pica">Theme Development</h2>
     <h3 class="great-primer">From "Lung Island" to Real-World Environments</h3>
     <p class="long-primer">The COPD Foundation's "Big Fat Reference Guide" book takes on the theme of a safari and exploration on "Lung Island". Any "call outs" or "did you know?" blurbs included a graphical cartoon explorer dressed in safari gear. I worked closely with ViiMeds front-end software engineer took their theme of "Lung Island" and expanded upon it by creating different environmental realms that one would travel through on a game board and applied it to the Care Plan Courses. Each aspect of the program (from individual chapters in a course to library resources) was assigned an "environment."</p>
   </section>
-  <aside class="preview" role="complementary" >
-    <img src="/images/lung-island.jpg" class="mobile-resize">
+  <aside class="preview" role="complementary">
+    <img src="/images/lung-island.jpg" class="mobile-resize" />
   </aside>
 </div>
 <div project-elements="infographic" class="default" style=" background-color: #E0E0E0;">
   <h2 class="double-pica text-center">A Journey Through the Environments</h2>
-  <div info-line>
-    <img src="/images/project_stages/tiles.png" class="first">
+  <div info-line="">
+    <img src="/images/project_stages/tiles.png" class="first" />
     <div info-side="left-side">
-      <div info="left arrow" >
+      <div info="left arrow">
         <h3 class="great-primer">Home</h3>
         <p class="long-primer">Home base, and where you can always return. Elements such as the dashboard, the patient journal, or messaging your coach would take on this theme.</p>
       </div>
-      <div info="left arrow" >
+      <div info="left arrow">
         <h3 class="great-primer">Beach</h3>
         <p class="long-primer">The beach is where one goes to relax, play games, take a break from daily routines. This theme would essentially be applied to the trophy room, social media integrated with the platform etc.</p>
       </div>
-      <div info="left arrow" >
+      <div info="left arrow">
         <h3 class="great-primer">Mountain</h3>
         <p class="long-primer">The mountain is an "uphill climb" and represents a challenge. This theme was applied to a "practice" activity that was sent to the patient during each individual course. An example of a "practice" activity included side-by-side recordings of patients completing pursed-lips-breathing exercises or other copd-related exercises that help them gain control of their disease. </p>
       </div>
     </div>
     <div info-side="right-side">
-      <div info="right arrow"  >
+      <div info="right arrow">
         <h3 class="great-primer">Farm</h3>
         <p class="long-primer">The farm, or "the simple life," represents simplicity and the basics. This theme was applied to all introduction chapters of each course. </p>
       </div>
-      <div info="right arrow" >
+      <div info="right arrow">
         <h3 class="great-primer">Forest</h3>
         <p class="long-primer">In the forest, one goes exploring deeper into nature, thus representing "deeper information." The middle chapters of a course (patients are exposed to deeper knowledge on the topic) would take on this theme.</p>
       </div>
-      <div info="right arrow" >
+      <div info="right arrow">
         <h3 class="great-primer">Sky</h3>
         <p class="long-primer">One can see "everything" and has a broader view of an area from the sky. The sky represents a review of all information learned in a course or exit surveys testing the patient's knowledge on the topic.</p>
       </div>
@@ -171,8 +226,8 @@ images_wireframes:
       </div>
     </div>
   </div>
-  <div info-mobile>
-    <img src="/images/project_stages/tiles.png" class="second">
+  <div info-mobile="">
+    <img src="/images/project_stages/tiles.png" class="second" />
     <div>
       <div info="mobile" id="mobile1">
         <h3 class="great-primer">Home <i class="fa fa-caret-down "></i><i class="fa fa-caret-up "></i></h3>
@@ -207,22 +262,22 @@ images_wireframes:
 </div>
 
 <div project-elements="middle" class="container default">
-  <h2 class="double-pica text-center">Theme & Gamification in Action</h2>
+  <h2 class="double-pica text-center">Theme &amp; Gamification in Action</h2>
   <p class="long-primer text-center">I designed and created elements that went along with each theme. Once we began building out the care plan, we realized that for the first launch, we did not have a need for some of the "environments," so we eliminated "town" and "beach."</p>
   <div class="tiles" id="menu">
     <ul>
-      <a href="#" onclick="return showDiv('1')"><li class="farm hvr-grow"><img src="/images/project_stages/farm.png">
+      <a href="#" onclick="return showDiv('1')"><li class="farm hvr-grow"><img src="/images/project_stages/farm.png" />
       <h3 class="great-primer">Farm</h3></li></a>
 
-      <a href="#content-divs" onclick="return showDiv('2')"><li class="forest hvr-grow"><img src="/images/project_stages/forest.png">
+      <a href="#content-divs" onclick="return showDiv('2')"><li class="forest hvr-grow"><img src="/images/project_stages/forest.png" />
       <h3 class="great-primer">Forest</h3></li></a>
-      <a href="#content-divs" onclick="return showDiv('3')"><li class="mountain hvr-grow"><img src="/images/project_stages/mountain.png">
+      <a href="#content-divs" onclick="return showDiv('3')"><li class="mountain hvr-grow"><img src="/images/project_stages/mountain.png" />
       <h3 class="great-primer">Mountain</h3></li></a>
-      <a href="#content-divs" onclick="return showDiv('4')"><li class="sky hvr-grow"><img src="/images/project_stages/sky.png">
+      <a href="#content-divs" onclick="return showDiv('4')"><li class="sky hvr-grow"><img src="/images/project_stages/sky.png" />
       <h3 class="great-primer">Sky</h3></li></a>
-      <a href="#content-divs" onclick="return showDiv('5')"><li class="river hvr-grow"><img src="/images/project_stages/river.png">
+      <a href="#content-divs" onclick="return showDiv('5')"><li class="river hvr-grow"><img src="/images/project_stages/river.png" />
       <h3 class="great-primer">River</h3></li></a>
-      <a href="#content-divs" onclick="return showDiv('6')"><li class="home hvr-grow"><img src="/images/project_stages/home.png">
+      <a href="#content-divs" onclick="return showDiv('6')"><li class="home hvr-grow"><img src="/images/project_stages/home.png" />
       <h3 class="great-primer">Home</h3></li></a>
     </ul>
   </div>
@@ -234,12 +289,12 @@ images_wireframes:
       <h4 class="pica text-center">#DC9414</h4>
     </div>
 
-    <img src="/images/project_stages/copd-display@2x.jpg" class="display-case">
+    <img src="/images/project_stages/copd-display@2x.jpg" class="display-case" />
 
     <div class="container elements">
       <div class="display-card" style="background-color: #DC9414;">
         <div class="element">
-          <img src="/images/project_stages/burlapseedsack.png">
+          <img src="/images/project_stages/burlapseedsack.png" />
         </div>
 
         <div class="info default invert">
@@ -249,7 +304,7 @@ images_wireframes:
       </div>
       <div class="display-card" style="background-color: #DC9414;">
         <div class="element">
-          <img src="/images/project_stages/shovel.png">
+          <img src="/images/project_stages/shovel.png" />
         </div>
 
         <div class="info default invert">
@@ -259,22 +314,22 @@ images_wireframes:
       </div>
       <div class="display-card-other" style="background-color: #DC9414;">
         <div class="element">
-          <img src="/images/project_stages/chatbubfarm.png">
+          <img src="/images/project_stages/chatbubfarm.png" />
         </div>
 
         <div class="info default invert">
           <h3 class="great-primer text-center">Chat Bubble</h3>
-          <p class="long-primer text-center">CSS & HTML</p>
+          <p class="long-primer text-center">CSS &amp; HTML</p>
         </div>
       </div>
       <div class="display-card-other" style="background-color: #DC9414;">
         <div class="element">
-          <img src="/images/project_stages/farm-download.png">
+          <img src="/images/project_stages/farm-download.png" />
         </div>
 
         <div class="info default invert">
           <h3 class="great-primer text-center">Download Box</h3>
-          <p class="long-primer text-center">CSS & HTML</p>
+          <p class="long-primer text-center">CSS &amp; HTML</p>
         </div>
       </div>
     </div>
@@ -285,12 +340,12 @@ images_wireframes:
        <h4 class="pica text-center">#4F6E54</h4>
      </div>
 
-     <img src="/images/project_stages/forest-display@2x.jpg" class="display-case">
+     <img src="/images/project_stages/forest-display@2x.jpg" class="display-case" />
 
      <div class="container elements">
        <div class="display-card" style="background-color: #4F6E54;">
          <div class="element">
-           <img src="/images/project_stages/tent-with-logo.png">
+           <img src="/images/project_stages/tent-with-logo.png" />
          </div>
 
          <div class="info default invert">
@@ -300,32 +355,32 @@ images_wireframes:
        </div>
        <div class="display-card" style="background-color: #4F6E54;">
          <div class="element">
-           <img src="/images/project_stages/axe-with-stump.png">
+           <img src="/images/project_stages/axe-with-stump.png" />
          </div>
 
          <div class="info default invert">
-           <h3 class="great-primer text-center">Axe & Stump</h3>
+           <h3 class="great-primer text-center">Axe &amp; Stump</h3>
            <p class="long-primer text-center">Created in Adobe Photoshop</p>
          </div>
        </div>
        <div class="display-card-other" style="background-color: #4F6E54;">
          <div class="element">
-           <img src="/images/project_stages/chatbubforest.png">
+           <img src="/images/project_stages/chatbubforest.png" />
          </div>
 
          <div class="info default invert">
            <h3 class="great-primer text-center">Chat Bubble</h3>
-           <p class="long-primer text-center">CSS & HTML</p>
+           <p class="long-primer text-center">CSS &amp; HTML</p>
          </div>
        </div>
        <div class="display-card-other" style="background-color: #4F6E54;">
          <div class="element">
-           <img src="/images/project_stages/forest-download.png">
+           <img src="/images/project_stages/forest-download.png" />
          </div>
 
          <div class="info default invert">
            <h3 class="great-primer text-center">Download Box</h3>
-           <p class="long-primer text-center">CSS & HTML</p>
+           <p class="long-primer text-center">CSS &amp; HTML</p>
          </div>
        </div>
      </div>
@@ -336,12 +391,12 @@ images_wireframes:
      <h4 class="pica text-center">#FA5C3E</h4>
    </div>
 
-   <img src="/images/project_stages/mountain-display@2x.jpg" class="display-case">
+   <img src="/images/project_stages/mountain-display@2x.jpg" class="display-case" />
 
    <div class="container elements">
      <div class="display-card" style="background-color: #FA5C3E;">
        <div class="element">
-         <img src="/images/project_stages/ice-axe.png">
+         <img src="/images/project_stages/ice-axe.png" />
        </div>
 
        <div class="info default invert">
@@ -351,7 +406,7 @@ images_wireframes:
      </div>
      <div class="display-card" style="background-color: #FA5C3E;">
        <div class="element">
-         <img src="/images/project_stages/crampon.png">
+         <img src="/images/project_stages/crampon.png" />
        </div>
 
        <div class="info default invert">
@@ -361,22 +416,22 @@ images_wireframes:
      </div>
      <div class="display-card-other" style="background-color: #FA5C3E;">
        <div class="element">
-         <img src="/images/project_stages/chatbubmountain.png">
+         <img src="/images/project_stages/chatbubmountain.png" />
        </div>
 
        <div class="info default invert">
          <h3 class="great-primer text-center">Chat Bubble</h3>
-         <p class="long-primer text-center">CSS & HTML</p>
+         <p class="long-primer text-center">CSS &amp; HTML</p>
        </div>
      </div>
      <div class="display-card-other" style="background-color: #FA5C3E;">
        <div class="element">
-         <img src="/images/project_stages/mountain-download.png">
+         <img src="/images/project_stages/mountain-download.png" />
        </div>
 
        <div class="info default invert">
          <h3 class="great-primer text-center">Download Box</h3>
-         <p class="long-primer text-center">CSS & HTML</p>
+         <p class="long-primer text-center">CSS &amp; HTML</p>
        </div>
      </div>
     </div>
@@ -387,12 +442,12 @@ images_wireframes:
      <h4 class="pica text-center">#00BAD7</h4>
    </div>
 
-   <img src="/images/project_stages/sky-display@2x.jpg" class="display-case">
+   <img src="/images/project_stages/sky-display@2x.jpg" class="display-case" />
 
    <div class="container elements">
      <div class="display-card" style="background-color: #00BAD7;">
        <div class="element">
-         <img src="/images/project_stages/cloud-final.png">
+         <img src="/images/project_stages/cloud-final.png" />
        </div>
 
        <div class="info default invert">
@@ -402,7 +457,7 @@ images_wireframes:
      </div>
      <div class="display-card" style="background-color: #00BAD7;">
        <div class="element">
-         <img src="/images/project_stages/hangglider.png">
+         <img src="/images/project_stages/hangglider.png" />
        </div>
 
        <div class="info default invert">
@@ -412,12 +467,12 @@ images_wireframes:
      </div>
      <div class="display-card-other" style="background-color: #00BAD7;">
        <div class="element">
-         <img src="/images/project_stages/chatbubsky.png">
+         <img src="/images/project_stages/chatbubsky.png" />
        </div>
 
        <div class="info default invert">
          <h3 class="great-primer text-center">Chat Bubble</h3>
-         <p class="long-primer text-center">CSS & HTML</p>
+         <p class="long-primer text-center">CSS &amp; HTML</p>
        </div>
      </div>
    </div>
@@ -428,12 +483,12 @@ images_wireframes:
        <h4 class="pica text-center">#5B859A</h4>
      </div>
 
-     <img src="/images/project_stages/river-display@2x.jpg" class="display-case">
+     <img src="/images/project_stages/river-display@2x.jpg" class="display-case" />
 
      <div class="container elements">
        <div class="display-card" style="background-color: #5B859A;">
          <div class="element">
-           <img src="/images/project_stages/canoe4.png">
+           <img src="/images/project_stages/canoe4.png" />
          </div>
 
          <div class="info default invert">
@@ -443,7 +498,7 @@ images_wireframes:
        </div>
        <div class="display-card" style="background-color: #5B859A;">
          <div class="element">
-           <img src="/images/project_stages/lure.png">
+           <img src="/images/project_stages/lure.png" />
          </div>
 
          <div class="info default invert">
@@ -453,22 +508,22 @@ images_wireframes:
        </div>
        <div class="display-card-other" style="background-color: #5B859A;">
          <div class="element">
-           <img src="/images/project_stages/chatbubriver.png">
+           <img src="/images/project_stages/chatbubriver.png" />
          </div>
 
          <div class="info default invert">
            <h3 class="great-primer text-center">Chat Bubble</h3>
-           <p class="long-primer text-center">CSS & HTML</p>
+           <p class="long-primer text-center">CSS &amp; HTML</p>
          </div>
        </div>
        <div class="display-card-other" style="background-color: #5B859A;">
          <div class="element">
-           <img src="/images/project_stages/river-download.png">
+           <img src="/images/project_stages/river-download.png" />
          </div>
 
          <div class="info default invert">
            <h3 class="great-primer text-center">Download Box</h3>
-           <p class="long-primer text-center">CSS & HTML</p>
+           <p class="long-primer text-center">CSS &amp; HTML</p>
          </div>
        </div>
      </div>
@@ -479,21 +534,20 @@ images_wireframes:
        <h4 class="pica text-center">#4c5262</h4>
      </div>
 
-     <img src="/images/project_stages/home-display@2x.jpg" class="display-case">
+     <img src="/images/project_stages/home-display@2x.jpg" class="display-case" />
    </section>
 </section>
 
-
-<div class="container" >
-  <div contain-pair="{{ page.theme }}">
+<div class="container">
+  <div contain-pair="default">
     <section class="copy" role="main">
       <h2 class="trafalgar">COPD Care Plan: Impact and Feedback</h2>
       <p class="long-primer">I created a user survey for patients to fill out while they were completing their program. We asked them all sorts of questions regarding the design, navigation, workflow, and gamification. Most said they really enjoyed the theme and gamification aspect, but that they did not see it as a motivating factor for them. We came to the conclusion that perhaps there was no correlation to motivation because patients could not do anything with their points (e.g., purchase items in a trophy room).
-      <br><br>
+      <br /><br />
       The COPD care plan was up and running. The theme elements and ideas that the Lead UX and UI designer and I developed became a large turning point for how we approached all other care plans. The elements we build were so often reused for other care plans, that we eventually built widgets out of them for solution architects to use instead of copying and pasting HTML code.</p>
     </section>
     <aside class="preview" role="complementary">
-      <img src="{{ page.feature-image }}">
+      <img src="/images/feature/chscopd-gif.gif" />
     </aside>
   </div>
 </div>
@@ -508,4 +562,66 @@ function showDiv(idInfo) {
 
 
 window.onload = function() { showDiv('1'); }
+</script>
+
+
+
+    </div>
+    <footer>
+  <div class="container-footer invert">
+    <div class="row">
+      <div class="left-footer">
+        <h4 class="pica">Daniella Marooney</h4>
+        <p class="long-primer">Daniellam1105@gmail.com</p>
+        <a href="/contact/" class="footer-invert">Contact Me</a>
+        <!-- <h4 class="pica" >Office Hours</h4>
+        <p class="long-primer">Monday - Thursday 9:00am - 5:00pm EST </p> -->
+      </div>
+      <div class="right-footer">
+        <a class="social" href="https://www.linkedin.com/in/daniella-marooney-0a19263a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a class="social" href="https://www.facebook.com/daniella.marooney"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
+<script>
+$(document).ready(function(){
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+};
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+   $("#mobile1, #mobile2, #mobile3, #mobile4, #mobile5, #mobile6, #mobile7").click(function() {
+       $(this).find('.long-primer').toggle(1000);
+       $(this).find('.fa-caret-down, .fa-caret-up').toggle();
+       $(this).css({"z-index":"100" , "background-color": "rgba(255,255,255,1)"});
+       $(this).siblings('div').css({"z-index":"10" , "background-color": "rgba(255,255,255,.85)"});
+   });
+
+
+
+
+});
 </script>

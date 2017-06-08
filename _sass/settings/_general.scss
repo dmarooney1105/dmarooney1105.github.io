@@ -1,0 +1,73 @@
+body {
+  // width: 100%;
+  // height: 100vh;
+  margin: 0px;
+}
+
+[contact] {
+  margin-top: 50px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
+  box-shadow: 0px 2px 0.5px 1px rgba(0,0,0,0.13);
+  @media all and (min-width:$breakpoint-laptop){
+    width: 600px;
+    padding: 50px;
+  }
+  @media all and (max-width:$breakpoint-laptop) and (min-width: $breakpoint-tablet){
+    width: 400px;
+    padding: 50px;
+  }
+  @media all and (max-width:$breakpoint-tablet){
+    width: 300px;
+    padding: 30px;
+  }
+  text-align: left;
+}
+
+
+
+input.text, textarea {
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  color: $default;
+  @media all and (min-width:$breakpoint-tablet) {
+      width: 400px;
+  }
+  @media all and (max-width:$breakpoint-tablet) {
+      width: 250px;
+  }
+  font-size: 1rem;
+}
+input.text {
+    height: 20px;
+}
+input.submit {
+  margin-top: 20px;
+color: $contentcolor-lite;
+font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+ border-radius: 3px;
+ width: 150px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: solid 1px $primarycolor;
+  background-color: $primarycolor;
+  -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all 5s ease-out;
+    -webkit-box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 2px 0px 1px rgba(0,0,0,0.13);
+    box-shadow: 0px 1px 0px 1px rgba(0,0,0,0.13);
+}
+input.submit:hover {
+  border: solid 1px $secondary-color;
+  background-color: $secondary-color;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-offset: -2px;
+    outline: $primarycolor auto 3px;
+    outline-color: $primarycolor;
+}

@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/images/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5588ff">
+    <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" />
     <title>Daniella Marooney Portfolio</title>
     <link rel="stylesheet" href="/css/styles.css">
-      <link rel="stylesheet" href="/images/webfont/webfont.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Raleway:300,400,500,600,700|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/images/webfont/webfont.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Roboto+Condensed:300,400" rel="stylesheet">
     <script src="https://use.fontawesome.com/d0b9800874.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,19 +34,20 @@
   </head>
   <body>
     <header>
-  <div class="container">
+  <div class="nav-container">
     <!-- *ask cam how to add name or logo or something on left side* -->
     <nav class="main_nav">
-      <div class="left-nav">
-        <a href="/"><h2>DM</h2></a>
+      <div class="left-nav logo">
+        <a href="/" class="home"><img src="/images/dmelephantt.png"</a>
       </div>
       <div class="right-nav">
         <ul class="topnav" id="myTopnav">
           <li class="icon">
             <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
           </li>
-          <li><a href="/#projects" >Projects</a></li>
-          <li><a href="/showcase.html" >Showcase</a></li>
+          <li class="pica"><a href="/contact/" >Contact</a></li>
+          <li class="pica"><a href="/#projects" >Projects</a></li>
+          <li class="pica"><a href="/showcase" >Showcase</a></li>
         </ul>
       </div>
     </nav>
@@ -61,156 +55,216 @@
 </header>
 
     <div class="content">
-      <!-- <div class="bigscreen bigpadding" style="background-image: linear-gradient(
-    rgba(16, 26, 74, 0.90),
-    rgba(56, 89, 249, 0.90)
-  ), url('/images/backgrounds/elephant2.jpg'); background-position: center center ">
-  <h1 style="text-shadow: none; padding-top: 30px;">Daniella Marooney</h2>
-    <hr class="small-divide">
-    <center>
-  <p class="lite-content" style="text-align: center; max-width: 300px; padding-top: 10px;">Bilingual Product Designer. Creatively driven to produce elegant and minimalist products. </p>
-  </center>
-</div> -->
-
-<div class="main-headerz bigpadding" style="background-image: url('/images/backgrounds/pastels3.jpg'); background-position: bottom left;">
-  <h1>Daniella Marooney</h2>
-    <center>
-  <p style="text-align: center; max-width: 300px; padding-top: 10px;">Bilingual Product Designer. Creatively driven to produce elegant and minimalist products. </p>
-  </center>
+      <div class="container header-contain invert primary-bg">
+  <div class="headline">
+    <h1 class="canon">Daniella Marooney</h1>
+    <!-- <h2 class="trafalgar">Product Designer. Graphic Designer. Visual Designer. </h2> -->
+    <h2 class="double-pica">Designing simple solutions for people's complex problems. </h2>
+  </div>
+  <div class="product-container">
+    <img src="/images/backgrounds/display.png" />
+  </div>
 </div>
-
-
-<div class="about smallpadding project-thumbnail_section">
-  <div class="project_thumb">
-  <div styel="align-self: stretch;">
-    <i class="fa fa-graduation-cap primary" aria-hidden="true" style="font-size: 3.5rem;"></i>
-  </div>
-  <div style="align-self: stretch; padding-top: 20px;">
-    <h3 class="primary" style="font-weight: 500;">Education</h3>
-  </div>
-  <div>
-    <p class="dark-neutral">In 2011, I graduated with a Bachelor of Arts from the University of Maryland, College Park, MD.</p>
-  </div>
-  <center>
-</center>
-</div>
-
-  <div class="project_thumb">
-  <div styel="align-self: stretch;">
-    <i class="fa fa-paint-brush primary" aria-hidden="true" style="font-size: 3.5rem;"></i>
-  </div>
-  <div style="align-self: stretch; padding-top: 20px;">
-    <h3 class="primary" style="font-weight: 500;">Why UI and Product Design?</h3>
-  </div>
-  <div>
-    <p class="dark-neutral">I've always been considered a creative person. I taught myself HTML when I was ten years old, and I love the idea of using design to solve problems.</p>
-  </div>
-  <center>
-</center>
-</div>
-
-  <div class="project_thumb">
-  <div styel="align-self: stretch;">
-    <i class="fa fa-soccer-ball-o primary" aria-hidden="true" style="font-size: 3.5rem;"></i>
-  </div>
-  <div style="align-self: stretch; padding-top: 20px;">
-    <h3 class="primary" style="font-weight: 500;">Hobbies</h3>
-  </div>
-  <div>
-    <p class="dark-neutral">Searching UI design blogs for inspiration, painting, traveling, and spending time with family and friends.</p>
-  </div>
-  <center>
-</center>
-</div>
-
-</div>
-
-<section id="projects">
-  <div style="background-color: #1150A7; padding-top: 30px; padding-bottom: 30px;">
-    <h2 class="lite-content" style="text-align: center; padding-top: 50px; padding-bottom: 20px;">Major Projects</h2>
-    <div class="project-thumbnail_section">
+<section id="projects" class="project-gallery default" style="padding-top: 50px;">
+  <h2 class="trafalgar text-center">Projects</h2>
+  <ul>
+    
       
-  <div class="project_thumb project-thumbz">
-    <img src="/images/backgrounds/copd-macbook.jpg">
-    <h3 style="padding-top: px;">COPD Care Plan</h3>
-    <p>I worked with a large team at ViiMed to build a care plan for COPD patients that involved a virtual journey and some gamification.</p>
-    <center>
-    <div class="ps-button">
-      <a id="neutral-buttonz" href="/project1.html"><div id="neutral-button">View Project</div></a>
-    </div>
-  </center>
-  </div>
-
+    
       
-  <div class="project_thumb project-thumbz">
-    <img src="/images/feature/viimed-web.jpg">
-    <h3 style="padding-top: 4px;">ViiMed Website</h3>
-    <p>The ViiMed Website went through a lot of iterations. I collaborated with the CEO and Marketing team each time it went under renovation.</p>
-    <center>
-    <div class="ps-button">
-      <a id="neutral-buttonz" href="/project2.html"><div id="neutral-button">View Project</div></a>
-    </div>
-  </center>
-  </div>
-
+    
       
-  <div class="project_thumb project-thumbz">
-    <img src="/images/feature/console.jpg">
-    <h3 style="padding-top: 4px;">Care Coordinator Dashboard</h3>
-    <p>I worked directly with a cardiologist to come up with a Congestive Heart Failure program to build with ViiMed’s platform.</p>
-    <center>
-    <div class="ps-button">
-      <a id="neutral-buttonz" href="/project3.html"><div id="neutral-button">View Project</div></a>
-    </div>
-  </center>
-  </div>
+    
+      
+        <li class="default"><img src="/images/backgrounds/copd1.png" />
+          <div class="what">
+            <h2 class="double-pica">COPD Care Plan</h2>
+          </div>
+          <div class="tags">
+          
+            <div class="tag">
+              <div data-icon=" % " class="icon"></div>
+              <h5 class="minion">Product design</h5>
+            </div>
+          
+            <div class="tag">
+              <div data-icon=" } " class="icon"></div>
+              <h5 class="minion">Gamification</h5>
+            </div>
+          
+            <div class="tag">
+              <div data-icon=" K " class="icon"></div>
+              <h5 class="minion">Ui design</h5>
+            </div>
+          
+          </div>
+          <center>
+          <a href="/project1/">View Project</a>
+          </center>
+        </li>
+      
+    
+      
+        <li class="default"><img src="/images/backgrounds/viimed1.png" />
+          <div class="what">
+            <h2 class="double-pica">ViiMed Website</h2>
+          </div>
+          <div class="tags">
+          
+            <div class="tag">
+              <div data-icon=" # " class="icon"></div>
+              <h5 class="minion">Web design</h5>
+            </div>
+          
+            <div class="tag">
+              <div data-icon=" 3 " class="icon"></div>
+              <h5 class="minion">Web development</h5>
+            </div>
+          
+          </div>
+          <center>
+          <a href="/project2/">View Project</a>
+          </center>
+        </li>
+      
+    
+      
+        <li class="default"><img src="/images/backgrounds/chf1.png" />
+          <div class="what">
+            <h2 class="double-pica">CHF Care Plan &amp; Nurse Admin Dashboard</h2>
+          </div>
+          <div class="tags">
+          
+            <div class="tag">
+              <div data-icon=" % " class="icon"></div>
+              <h5 class="minion">Product design</h5>
+            </div>
+          
+            <div class="tag">
+              <div data-icon=" K " class="icon"></div>
+              <h5 class="minion">Ui design</h5>
+            </div>
+          
+          </div>
+          <center>
+          <a href="/project3/">View Project</a>
+          </center>
+        </li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
 
-    </div>
-  </div>
+  </ul>
 </section>
+<div class="experience">
+  <h2 class="trafalgar text-center" style="padding: 70px 20px 50px 20px;">Professional Experience</h2>
+  <div class="timeliner-container">
+    <div class="timeline">
+      <div class="entry">
+        <div class="title">
+          <h3>Feb. 2017 - Present</h3>
+          <h5 class="minion">Washington. D.C.</h5>
+        </div>
+        <div class="body">
+          <h4 class="pica">Freelance &amp; Contract Work</h4>
+          <p>Providing product design, web design and development as
+          well as graphic design consultation for ViiMed and other
+          entrepreneurial clients</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title">
+          <h3>June 2014 - Feb. 2017</h3>
+          <p>ViiMed</p>
+          <h5 class="minion">Washington, D.C.</h5>
+        </div>
+        <div class="body">
+          <h4 class="pica">Product Designer &amp; Creative Director</h4>
+          <p>ViiMed is a telehealth software company delivering personalized care
+          plans to patients while providers monitor and communicate
+          with them via the platform.</p>
+          <ul>
+            <li>Designed and build responsive landing pages on ViiMed
+            platform for both patients and doctors</li>
+            <li>Developed high fidelity mockups and prototypes based on
+            client feedback to improve patient and provider user
+            experience</li>
+            <li>Collaborated with front-end Senior Software Engineer to
+            create gamified experiences that drive patient participation</li>
+            <li>Worked cross-functionally to improve product and develop
+            intuitive solutions</li>
+            <li>Conducted all UX/UI design and usability audits for client
+            workflows</li>
+            <li>Created and distribute all of ViiMed’s marketing collateral
+            and graphics</li>
+            <li>Lead product demos at trade shows and business
+            development meetings</li>
+          </ul>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title">
+          <h3>May 2014 - June 2014</h3>
+          <p>ViiMed</p>
+          <h5 class="minion">Washington, D.C.</h5>
+        </div>
+        <div class="body">
+          <h4 class="pica">UI /UX &amp; Graphic Design Intern</h4>
+          <p>Switched career direction to pursue my passion for creative
+          design through internship with ViiMed. Was offered a full
+          time position within 3 weeks.</p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="title">
+          <h3>Feb. 2012 - May 2014</h3>
+          <p>Integrated Training Solutions (ITS)</p>
+          <h5 class="minion">Falls Church, VA</h5>
+        </div>
+        <div class="body">
+          <h4 class="pica">Marketing Coordinator</h4>
+          <p>Government contract managing NLSC Program, a group of
+          volunteers who provide language resources to U.S. federal
+              agencies.</p>
+          <ul>
+            <li>Produced and designed graphics for marketing and outreach campaigns
+            for more than 4,800 volunteer members and staff</li>
+            <li>Conducted market research through questionnaires for
+            strategic market expansion</li>
+            <li>Planned and hosted monthly national recruiting and member events budgeted for $2,000+ with 50-60 attendees</li>
+          </ul>
+        </div>
+      </div>
 
-
-<!-- resume -->
-<div class="holder">
-  <center>
-  <div class="card card-size">
-    <h2 class="dark-neutral" style="text-align: center; padding-top: 50px; padding-bottom: 20px;">Experience</h2>
-    <h2>
-      <div class="info-card">
-  <h3>ViiMed</h3>
-  <p class="company">Telehealth software company that delivers personalized care plans to patients while providers monitor and communicate with them via the platform.</p>
-  <h4>2014 - 2017</h4>
-  <h5><br />Product Designer / Creative Director</h5>
-  <p class="resume">Developed high fidelity mockups and prototypes based on client feedback and collaborated with Lead UI/UX Designer to create gamified experiences and develop intuitive solutions for the platform.</p>
-  <h5>UI / UX and Graphic Design Intern</h5>
-  <p class="resume">Switched career direction to pursue my passion for
-creative design through internship with Viimed. Was
-offered a full time position within 3 weeks.</p>
-</div>
-
-<div class="info-card">
-  <h3>Integrated Training Solutions (ITS)</h3>
-  <p class="company">Government contract that managed NLSC Program, a
-group of volunteers who provide language resources to
-U.S. federal agencies.</p>
-  <h4>2012 - 2014</h4>
-  <h5><br />Marketing Coordinator</h5>
-  <p class="resume">Produced graphics for marketing and outreach
-campaigns for more than 4,800 volunteer members and Conducted market research through questionnaires for
-strategic market expansion.</p>
-  <h5></h5>
-  <p class="resume"></p>
-</div>
-
+    </div>
   </div>
-</center>
+  <div class="timeliner-container">
+    <div class="education">
+        <h2 class="double-pica">Education</h2>
+        <div class="body">
+          <h4 class="pica">University of Maryland</h4>
+        </div>
+        <div class="title">
+          <h5 class="minion">College Park, MD</h5>
+          <p>Bachelor of Arts in Communication Studies</p>
+          <p>2007 - 2011</p>
+        </div>
+      </div>
+  </div>
 </div>
-
-<div class="mediumpadding_middle grapefruit-bg">
-  <h2 class="lite-content" style="text-align: center; padding-bottom: 20px;">Skills & Languages</h2>
-  <div id="skills" class="skills-container">
-    <div class="skills">
-      
+<div class="container invert grapefruit-bg">
+  <h2 class="trafalgar text-center">Skills &amp; Languages</h2>
+  <div class="skill-sets">
+    <div id="skills" class="skills-container">
+      <div class="skills">
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-volume-full">
     <h3 style="color: #;"> Spanish</h3>
@@ -220,7 +274,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-code">
     <h3 style="color: #;"> HTML</h3>
@@ -230,7 +284,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-code">
     <h3 style="color: #;"> CSS</h3>
@@ -240,17 +294,17 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-code">
-    <h3 style="color: #;"> JavaScript & jQuery</h3>
+    <h3 style="color: #;"> JavaScript &amp; jQuery</h3>
   <!-- <div class="w3-light-grey w3-round-xlarge inner-youth" style="width:250px;">
     <div class="w3-container w3- w3-round-xlarge" style="padding: 5px; width:30%"></div>
   </div> -->
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-brush">
     <h3 style="color: #;"> Adobe Illustrator</h3>
@@ -260,7 +314,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-brush">
     <h3 style="color: #;"> Adobe Photoshop</h3>
@@ -270,9 +324,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-    </div>
-    <div class="skills">
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-brush">
     <h3 style="color: #;"> Adobe Experience Design</h3>
@@ -282,7 +334,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-brush">
     <h3 style="color: #;"> Adobe InDesign</h3>
@@ -292,7 +344,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-browser">
     <h3 style="color: #;"> OmniGraffle</h3>
@@ -302,7 +354,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-browser">
     <h3 style="color: #;"> InVision</h3>
@@ -312,7 +364,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-monitor">
     <h3 style="color: #;"> PowerPoint</h3>
@@ -322,7 +374,7 @@ strategic market expansion.</p>
   </div>
 </div>
 
-      
+        
 <div class="skill" style="color: #;">
   <div class="dripicons dripicons-monitor">
     <h3 style="color: #;"> Keynote</h3>
@@ -332,28 +384,35 @@ strategic market expansion.</p>
   </div>
 </div>
 
+      </div>
+
     </div>
   </div>
 </div>
 
-
     </div>
     <footer>
-      <div class="container-footer">
-        <div class="left-footer">
-          <h4>Contact</h4>
-          <p>Daniellam1105@gmail.com</p>
-        </div>
-        <div class="right-footer">
-          <a class="social" href="https://www.linkedin.com/in/daniella-marooney-0a19263a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a class="social" href="https://www.facebook.com/daniella.marooney"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-        </div>
+  <div class="container-footer invert">
+    <div class="row">
+      <div class="left-footer">
+        <h4 class="pica">Daniella Marooney</h4>
+        <p class="long-primer">Daniellam1105@gmail.com</p>
+        <a href="/contact/" class="footer-invert">Contact Me</a>
+        <!-- <h4 class="pica" >Office Hours</h4>
+        <p class="long-primer">Monday - Thursday 9:00am - 5:00pm EST </p> -->
       </div>
-    </footer>
+      <div class="right-footer">
+        <a class="social" href="https://www.linkedin.com/in/daniella-marooney-0a19263a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a class="social" href="https://www.facebook.com/daniella.marooney"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
+$(document).ready(function(){
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -378,4 +437,15 @@ $(function() {
   });
 });
 
+   $("#mobile1, #mobile2, #mobile3, #mobile4, #mobile5, #mobile6, #mobile7").click(function() {
+       $(this).find('.long-primer').toggle(1000);
+       $(this).find('.fa-caret-down, .fa-caret-up').toggle();
+       $(this).css({"z-index":"100" , "background-color": "rgba(255,255,255,1)"});
+       $(this).siblings('div').css({"z-index":"10" , "background-color": "rgba(255,255,255,.85)"});
+   });
+
+
+
+
+});
 </script>

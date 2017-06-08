@@ -1,17 +1,18 @@
 <header>
-  <div class="container">
+  <div class="nav-container">
     <!-- *ask cam how to add name or logo or something on left side* -->
     <nav class="main_nav">
-      <div class="left-nav">
-        <a href="/"><h2>DM</h2></a>
+      <div class="left-nav logo">
+        <a href="/" class="home"><img src="/images/dmelephantt.png"</a>
       </div>
       <div class="right-nav">
         <ul class="topnav" id="myTopnav">
           <li class="icon">
             <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
           </li>
-          <li><a href="/#projects" {% if page.url=="/#projects" %} class="active" {% endif %}>Projects</a></li>
-          <li><a href="/showcase.html" {% if page.url=="/showcase.html" %} class="active" {% endif %}>Showcase</a></li>
+          <li class="pica"><a href="/contact/" {% if page.url=="/contact/" %} class="active" {% endif %}>Contact</a></li>
+          <li class="pica"><a href="/#projects" {% if page.url=="/#projects" %} class="active" {% endif %}>Projects</a></li>
+          <li class="pica"><a href="/showcase" {% if page.url=="/showcase/" %} class="active" {% endif %}>Showcase</a></li>
         </ul>
       </div>
     </nav>

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container-large">
+  <div project-intro="{{ page.theme }}">
+    <h1 class="canon default">{{ page.title }}</h1>
+    <p class="long-primer">{{ page.description }}</p>
+    <img src="{{ page.feature-image }}">
+
+  </div>
+</div>
+<div class="container-large" >
+  <div contain-pair="{{ page.theme }}">
+    <section class="copy" role="main">
+      <h2 class="trafalgar">Problem</h2>
+      <p class="long-primer">{{ page.insight }}</p>
+    </section>
+    <aside class="preview" role="complementary">
+      <img src="{{ page.problem-image }}" class="mobile-resize">
+    </aside>
+  </div>
+</div>
+{{ content }}
