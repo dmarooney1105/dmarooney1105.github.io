@@ -47,12 +47,22 @@
           </li>
           <li class="pica"><a href="/contact/" >Contact</a></li>
           <li class="pica"><a href="/#projects" >Projects</a></li>
-          <li class="pica"><a href="/showcase" >Showcase</a></li>
+          <li class="pica"><a href="/showcase/" >Showcase</a></li>
         </ul>
       </div>
     </nav>
   </div>
 </header>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+};
+</script>
 
     <div class="content">
       <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
@@ -93,15 +103,6 @@
   </body>
 </html>
 <script>
-$(document).ready(function(){
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-};
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -128,5 +129,5 @@ $(function() {
 
 
 
-});
+
 </script>
