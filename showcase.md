@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio
 bg_color: 3869f9
-bigscreen_text: Showcase
+bigscreen_text: Portfolio
 permalink: /showcase/
 leader: An assortment of a few marketing materials, artwork, landing pages, and presentations I've created over the years.
 bigscreen-text-color: ffffff
