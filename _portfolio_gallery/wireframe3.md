@@ -4,5 +4,5 @@ type: Wireframe
 title: Wireframe for Patient Dashboard
 link: /images/showcase/dashboard-doc.pdf
 tools: Illustrator
-weight: 21
+weight: 19
 ---

@@ -4,5 +4,5 @@ type: Wireframe
 title: Wireframe for Patient Goals Feature
 link: /images/showcase/goals-uidoc.pdf
 tools: Illustrator
-weight: 20
+weight: 25
 ---

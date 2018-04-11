@@ -44,6 +44,39 @@ layout: default
   <h2 class="trafalgar text-center" style="padding: 70px 20px 50px 20px;">Professional Experience</h2>
   <div class="timeliner-container">
     <div class="timeline">
+    <div class="entry">
+      <div class="title">
+        <h3>Dec. 2017 - Present</h3>
+        <p>Stratus Intelligence</p>
+        <h5 class="minion">Washington, D.C.</h5>
+      </div>
+      <div class="body">
+        <h4 class="pica">Lead Product Designer</h4>
+        <p>Part Time</p>
+        <p>Stratus is a fintech start up focusing on making financial planning universally accessible to everyday people.</p>
+        <ul>
+          <li>Developing the vision and execution of entire Stratus platform.</li>
+          <li>Conducting user testing to improve functionality and user experience of platform.</li>
+          <li>Developing and coding company landing page.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title">
+        <h3>Oct. 2017 - Present</h3>
+        <p>One World Identity</p>
+        <h5 class="minion">Washington, D.C.</h5>
+      </div>
+      <div class="body">
+        <h4 class="pica">Product & Instructional Designer</h4>
+        <p>One World Identity is an identity industry community and professional services company.</p>
+        <ul>
+          <li>Designing and building course interface for Trust & Safety by incorporating gamification and innovative solutions to engage users with content.</li>
+          <li>Conducting user testing to improve user experience for courses.</li>
+          <li>Managing and designing company and conference landing pages.</li>
+        </ul>
+      </div>
+    </div>
       <div class="entry">
         <div class="title">
           <h3>Feb. 2017 - Present</h3>
@@ -51,9 +84,7 @@ layout: default
         </div>
         <div class="body">
           <h4 class="pica">Freelance & Contract Work</h4>
-          <p>Providing product design, web design and development as
-          well as graphic design consultation for ViiMed and other
-          entrepreneurial clients</p>
+          <p>Providing product design, web design and development as well as graphic design consultation for ViiMed, The World Health Organization and other entrepreneurial clients.</p>
         </div>
       </div>
       <div class="entry">

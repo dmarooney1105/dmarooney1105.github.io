@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Showcase
+title: Portfolio
 bg_color: 3869f9
 bigscreen_text: Showcase
 permalink: /showcase/

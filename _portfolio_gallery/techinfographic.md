@@ -4,5 +4,5 @@ type: Infographic
 title: Technology Overview
 link: /images/showcase/techinfographic.jpg
 tools: Illustrator
-weight: 2
+weight: 7
 ---
