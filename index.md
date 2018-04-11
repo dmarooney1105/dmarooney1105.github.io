@@ -181,9 +181,9 @@ layout: default
         {% include skill.html progress="60" type="Adobe Experience Design" dripicon="brush" %}
         {% include skill.html progress="50" type="Adobe InDesign" dripicon="brush" %}
         {% include skill.html progress="85" type="OmniGraffle" dripicon="browser" %}
+        {% include skill.html progress="85" type="Sketch" dripicon="browser" %}
         {% include skill.html progress="60" type="InVision" dripicon="browser" %}
         {% include skill.html progress="85" type="PowerPoint" dripicon="monitor" %}
-        {% include skill.html progress="85" type="Keynote" dripicon="monitor" %}
       </div>
 
     </div>
