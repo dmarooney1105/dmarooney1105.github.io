@@ -7,11 +7,12 @@ layout: default
 <div class="container header-contain invert primary-bg">
   <div class="headline">
     <h1 class="canon">Daniella Marooney</h1>
-    <!-- <h2 class="trafalgar">Product Designer. Graphic Designer. Visual Designer. </h2> -->
-    <h2 class="double-pica">Designing simple solutions for people's complex problems. </h2>
+    <h2 class="double-pica">Designing simple solutions for people's complex problems.
+    </h2>
+    <!-- <h2 class="double-pica">Product designer who creates simple solutions for user's complex problems. I also code and aspire to be a front-end developer.</h2> -->
   </div>
   <div class="product-container">
-    <img src="/images/backgrounds/display.png">
+    <img src="/images/stratus_main.png">
   </div>
 </div>
 <section id="projects" class="project-gallery default" style="padding-top: 50px;">
