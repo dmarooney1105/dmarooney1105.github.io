@@ -22,12 +22,20 @@ bigscreen_text_color: ffffff
 </section>
 
 <center>
+	<div class="filtering">
+		<!-- Gather unique tags from portfolio_gallery -->
+		{% assign category_types =  site.portfolio_gallery | map: 'type' | join: ',' | join: ',' | split: ',' | uniq | sort %}
+		<button id="showall">Show All</button>
+		{% for type in category_types %}
+			<button id="{{ type | slugify }}">{{ type }}</button>
+		{% endfor %}
+	</div>
   <div class="gallery-container">
     <h2>Designs & Artwork</h2>
       {% assign sorted_photos = site.portfolio_gallery | sort: "weight" %}
       <div class="photo-gallery">
         {% for image in sorted_photos %}
-          <div class="cell">
+          <div class="cell {{ image.type | slugify }}" >
           <a href="{{ image.link }}" target="_blank">
             <img src="{{ image.image_path }}" alt="{{ image.title}}" class="responsive-image">
             <div class="overlay">
@@ -40,3 +48,16 @@ bigscreen_text_color: ffffff
         {% endfor %}
       </div>
   </div>
+<script>
+	$(function() {
+	    $('.filtering button').click(function(){
+	      var get_id = this.id;
+	      var get_current = $('.photo-gallery .' + get_id);
+	        $('.cell').not( get_current ).hide(500);
+	        get_current.show(500);
+	    });
+	    $('#showall').click(function() {
+	        $('.cell').show(500);
+	    });
+	});
+</script>
