@@ -25,9 +25,9 @@ bigscreen_text_color: ffffff
 	<div class="filtering">
 		<!-- Gather unique tags from portfolio_gallery -->
 		{% assign category_types =  site.portfolio_gallery | map: 'type' | join: ',' | join: ',' | split: ',' | uniq | sort %}
-		<button id="showall">Show All</button>
+		<button id="showall" class="filter_button">Show All</button>
 		{% for type in category_types %}
-			<button id="{{ type | slugify }}">{{ type }}</button>
+			<button id="{{ type | slugify }}" class="filter_button">{{ type }}</button>
 		{% endfor %}
 	</div>
   <div class="gallery-container">
