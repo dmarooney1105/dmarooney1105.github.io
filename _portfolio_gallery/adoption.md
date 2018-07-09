@@ -1,6 +1,6 @@
 ---
 image_path: /images/showcase/adoption.jpg
-type: Instructional Handout for Client
+type: Marketing Materials
 title: Adoption Infographic
 link: /images/showcase/adoption-onepager.pdf
 tools: Illustrator

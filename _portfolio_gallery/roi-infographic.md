@@ -1,6 +1,6 @@
 ---
 image_path: /images/showcase/roiinfo.jpg
-type: Marketing Infographic
+type: Infographics
 title: ViiMed ROI Infographic
 link: /images/showcase/roi-infographic.jpg
 tools: Illustrator

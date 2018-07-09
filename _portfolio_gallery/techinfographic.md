@@ -1,6 +1,6 @@
 ---
 image_path: /images/showcase/tech-infographic.jpg
-type: Infographic
+type: Infographics
 title: Technology Overview
 link: /images/showcase/techinfographic.jpg
 tools: Illustrator

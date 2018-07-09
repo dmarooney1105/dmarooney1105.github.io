@@ -1,6 +1,6 @@
 ---
 image_path: /images/showcase/tradeshow.jpg
-type: Marketing
+type: Marketing Materials
 title: Tradeshow Banner
 link: /images/showcase/tradeshow-all.jpg
 tools: Photoshop, Illustrator

@@ -1,6 +1,6 @@
 ---
 image_path: /images/showcase/stratus.gif
-type: Web Development + Design
+type: Web Design / Coding
 title: Stratus Landing Page
 link: http://www.hellostratus.com/
 tools: Jekyll, HTML, CSS, jQuery, CloudCannon
