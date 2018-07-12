@@ -907,6 +907,7 @@ img.mobile-resize {
         height: 650px;
       }
 
+
       margin: 10px;
       // line-height: 150px;
       text-align: center;
@@ -951,6 +952,9 @@ img.mobile-resize {
         background-color:$primarycolor;
         color: $contentcolor-lite;
       }
+    }
+    li.alt {
+      height: 500px;
     }
   }
 }
@@ -1157,6 +1161,12 @@ img.mobile-resize {
 }
 img.display-case {
     width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+    padding: 0!important;
+}
+img.display-case-alt {
+    width: 75%;
     height: auto;
     margin-bottom: -4px;
     padding: 0!important;

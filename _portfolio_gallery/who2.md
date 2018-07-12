@@ -4,5 +4,5 @@ type: Infographics
 title: World Health Organization Poster
 link: /images/showcase/who2.pdf
 tools: Illustrator
-weight: 4
+weight: 32
 ---

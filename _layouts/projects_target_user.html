@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container-large">
+  <div project-intro="{{ page.theme }}">
+    <h1 class="canon default">{{ page.title }}</h1>
+    <p class="long-primer">{{ page.description }}</p>
+    <img src="{{ page.feature-image }}">
+
+  </div>
+</div>
+<div class="container-large background_theme" style="background-image: url('{{ page.background-user }}');">
+  <div contain-pair="{{ page.theme }}">
+    <div class="left-copy" style="color: #ffffff;">
+      <h2 class="trafalgar">Who is this for?</h2>
+      <p class="long-primer">{{ page.user }}</p>
+      </br></br>
+      <h2 class="trafalgar" style="margin-top: 20px;">What is the Problem?</h2>
+      <p class="long-primer">{{ page.problem }}</p>
+    </div>
+  </div>
+</div>
+
+{{ content }}

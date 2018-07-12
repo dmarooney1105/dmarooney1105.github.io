@@ -417,7 +417,7 @@ a.visited {
   display: inline-block;
   vertical-align: middle;
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px transparent;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
@@ -479,41 +479,6 @@ a.generic:hover {
   -webkit-transition: all .5s ease-out;
   -moz-transition: all .5s ease-out;
   -ms-transition: all 5s ease-out; }
-
-.filter_button {
-  text-align: center;
-  margin: 5px;
-  border-radius: 5px;
-  border: none;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -ms-transition: all 5s ease-out;
-  text-decoration: none;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: .85rem;
-  background-color: #5588ff;
-  padding: 15px;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -ms-transition: all 5s ease-out; }
-
-.filter_button:hover {
-  background-color: #1150A7;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -ms-transition: all 5s ease-out;
-  cursor: pointer; }
-
-.filter_button:focus {
-  background-color: #ffffff;
-  color: #5588ff;
-  -webkit-transition: all .5s ease-out;
-  -moz-transition: all .5s ease-out;
-  -ms-transition: all 5s ease-out;
-  outline: none;
-  border: solid 1px #5588ff; }
 
 @media all and (min-width: 768px) {
   .center-image {
@@ -2218,9 +2183,6 @@ input:focus, textarea:focus, keygen:focus, select:focus {
       border: solid 1px #ff6f69;
       background-color: #1150A7;
       color: #ffffff; }
-
-.filtering {
-  margin-top: 30px; }
 
 .experience {
   background-color: #e9f0f5;

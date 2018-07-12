@@ -2,6 +2,7 @@
 layout: projects
 title: COPD Care Plan
 type: project
+weight: 3
 permalink: /project1/
 gallery_image: /images/backgrounds/copd1.png
 feature-image: /images/feature/chscopd-gif.gif

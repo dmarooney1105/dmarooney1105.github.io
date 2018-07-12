@@ -18,7 +18,8 @@ layout: default
 <section id="projects" class="project-gallery default" style="padding-top: 50px;">
   <h2 class="trafalgar text-center">Projects</h2>
   <ul>
-    {% for page in site.pages %}
+  {% assign sorted_projects = site.pages | sort: 'weight' %}
+    {% for page in sorted_projects %}
       {% if page.type == "project" %}
         <li class="default"><img src="{{ page.gallery_image }}">
           <div class="what">
@@ -64,7 +65,7 @@ layout: default
     </div>
     <div class="entry">
       <div class="title">
-        <h3>Oct. 2017 - Present</h3>
+        <h3>Oct. 2017 - April 2018</h3>
         <p>One World Identity</p>
         <h5 class="minion">Washington, D.C.</h5>
       </div>

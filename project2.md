@@ -1,7 +1,8 @@
 ---
 layout: projects
 title: ViiMed Website
-type: project
+
+weight: 4
 gallery_image: /images/backgrounds/viimed1.png
 tags:
   - web design

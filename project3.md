@@ -2,6 +2,7 @@
 layout: projects
 title: CHF Care Plan & Nurse Admin Dashboard
 type: project
+weight: 2
 gallery_image: /images/backgrounds/chf1.png
 tags:
   - product design

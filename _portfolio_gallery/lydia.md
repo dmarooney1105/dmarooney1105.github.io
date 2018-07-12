@@ -4,5 +4,5 @@ type: Other
 title: C-Suite Magazine
 link: /images/showcase/magazine2.pdf
 tools: InDesign
-weight: 4
+weight: 10
 ---

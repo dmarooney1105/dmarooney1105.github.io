@@ -171,7 +171,7 @@ h4.pica, li.pica, a.pica {
 }
 
 // body
-p, p.long-primer, li.long-primer, span.long-primer {
+p, p.long-primer, ul.long-primer, li.long-primer, span.long-primer {
   font-family: $body-font;
   color: inherit;
   font-weight: 300;
@@ -308,4 +308,22 @@ span.category {
   font-weight: 200;
   letter-spacing: 2px;
   font-size: 1rem;
+}
+
+h3.step-by-step {
+  margin: 30px;
+  border-radius: 100px;
+  color: $contentcolor-lite;
+  padding: 15px;
+  height: 25px;
+    width: 25px;
+    text-align: center;
+}
+div.stepser {
+  h3:nth-child(odd) {
+    background-color: $canary;
+  }
+  h3:nth-child(even) {
+    background-color: $primarycolor;
+  }
 }

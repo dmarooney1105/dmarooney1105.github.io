@@ -4,5 +4,5 @@ type: Logo Design
 title: Grimm Brothers Remodeling Logo
 link: /images/showcase/display.jpg
 tools: Illustrator
-weight: 6
+weight: 8
 ---
