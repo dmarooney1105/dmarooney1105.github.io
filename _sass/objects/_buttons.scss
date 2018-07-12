@@ -28,39 +28,39 @@ a.generic:hover {
   -ms-transition: all 5s ease-out;
 }
 
-.filter_button {
-  text-align: center;
-  margin: 5px;
-    border-radius: 5px;
-    border:  none;
+button.filter_button {
+  text-align: center !important;
+  margin: 5px !important;
+    border-radius: 5px !important;
+    border:  none !important;
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -ms-transition: all 5s ease-out;
-    text-decoration: none;
-    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none !important;
+    font-family: "Source Sans Pro", sans-serif !important;
     font-weight: 400;
-    color: #ffffff;
-    font-size: .85rem;
-    background-color: $primarycolor;
-    padding: 15px;
+    color: #ffffff !important;
+    font-size: .85rem !important;
+    background-color: $primarycolor !important;
+    padding: 15px !important;
     -webkit-transition: all .5s ease-out;
       -moz-transition: all .5s ease-out;
       -ms-transition: all 5s ease-out;
 }
 
-.filter_button:hover {
-  background-color: $secondary-color;
+button.filter_button:hover {
+  background-color: $secondary-color !important;
   -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -ms-transition: all 5s ease-out;
-    cursor: pointer;
+    cursor: pointer !important;
 }
-.filter_button:focus {
-  background-color: $contentcolor-lite;
-  color: $primarycolor;
+button.filter_button:focus {
+  background-color: $contentcolor-lite !important;
+  color: $primarycolor  !important;
   -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     -ms-transition: all 5s ease-out;
     outline: none;
-    border: solid 1px $primarycolor;
+    border: solid 1px $primarycolor !important;
 }
