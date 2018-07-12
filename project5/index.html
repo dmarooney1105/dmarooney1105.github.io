@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5588ff">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Daniella Marooney Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/images/webfont/webfont.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i|Roboto+Condensed:300,400" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d0b9800874.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    
+  </head>
+  <body>
+    <header>
+  <div class="nav-container">
+    <!-- *ask cam how to add name or logo or something on left side* -->
+    <nav class="main_nav">
+      <div class="left-nav logo">
+        <a href="/" class="home"><img src="/images/dmelephantt.png"</a>
+      </div>
+      <div class="right-nav">
+        <ul class="topnav" id="myTopnav">
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+          <li class="pica"><a href="/contact/" >Contact</a></li>
+          <li class="pica"><a href="/#projects" >Projects</a></li>
+          <li class="pica"><a href="/showcase/" >Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+};
+</script>
+
+    <div class="content">
+      <div class="container-large">
+  <div project-intro="default">
+    <h1 class="canon default">Stratus Step by Step Spending Plan</h1>
+    <p class="long-primer">I redesigned the spending plan as a step-by-step flow to help users understand the purpose of the spending plan and how they will be using it.</p>
+    <img src="/images/project_stages/stratus-intro.png">
+
+  </div>
+</div>
+<div class="container-large background_theme" style="background-image: url('/images/backgrounds/user-bg-stratus.jpg');">
+  <div contain-pair="default">
+    <div class="left-copy" style="color: #ffffff;">
+      <h2 class="trafalgar">Who is this for?</h2>
+      <p class="long-primer">Millenials between the ages of 23 - 33 struggling to understand finances and pay down debt. Our main focus is the "Struggling Steve/Stacy" who needs to pay off student loans, cover necessary expenses, and needs help with future financial planning. </br></br> This user needs help creating a spending plan to help reach their goals.</p>
+      </br></br>
+      <h2 class="trafalgar" style="margin-top: 20px;">What is the Problem?</h2>
+      <p class="long-primer">The original low-fi mockups and multiple iterations of hi-fi mockups were tested with target users. Users were confused about what actions they needed to take with the spending plan. They also did not understand the connection between creating a spending plan to reach goal of "Spend less than you earn / Avoid New Debt."</p>
+    </div>
+  </div>
+</div>
+
+<div project-elements="middle" class="container default" style="border-bottom: solid 1px #ccc;">
+  <h2 class="trafalgar text-center">A Few New Requirements &amp; Solutions</h2>
+  <p class="long-primer text-center">After 3 - 4 iterations and multiple rounds of user testing, our product manager developed requirements based on new user needs.</p>
+  <center>
+  <div class="requirements-container">
+    <div class="key-leg"><center>
+      <div class="key-contain"><i class="fa fa-pencil keya"></i><span class="long-primer key-text">User Need &amp; Requirement</span></div>
+      <div class="key-contain"><i class="fa fa-check keyb"></i><span class="long-primer key-text">Solution</span></div>
+    </center></div>
+    <ul class="requirements long-primer">
+      <li>User does not know where they are in the flow and how much "time" or how many steps they have left to complete.</li>
+      <li>Designed and implemented progress circle on menu item.</li>
+
+      <div class="req-solution-container"><center><img src="/images/project_stages/progress-circle-sp.png" class="req-solution" /></center></div>
+      <br />
+
+      <li>User needs to be able to take action and set spending for "Must-Have" categories prior to landing on spending plan interface.</li>
+      <li>Redesigned flow to show how much user could be saving in these "Must-Have" categories and the take action by "committing" to spending less which automatically sets the spending for this category in the spending plan.</li>
+      <div class="req-solution-container"><center><img src="/images/project_stages/category-spend.png" class="req-solution-shadow" /></center></div>
+      <br />
+
+
+      <li>User is distracted by menu of goals on left-hand side</li>
+      <li>Designed the menu to collapse after first screen.</li>
+      <div class="req-solution-container"><center><img src="/images/project_stages/menu-collapse.png" class="req-solution-shadow" /></center></div>
+      <br />
+
+      <li>User needs to know how much they are finding in savings as they commit to spending less in each category.</li>
+      <li>Designed a progress bar to aggregate as user "commits" to spending less in each category. I also added a check mark on categories they have committed to.</li>
+      <div class="req-solution-container" style="border-bottom: none;"><center><img src="/images/project_stages/progress-barz.png" class="req-solution-shadow" /></center></div>
+      <br />
+
+    </ul>
+  </div>
+  </center>
+</div>
+
+<div project-elements="middle" class="container default stepser" style="border-bottom: solid 1px #ccc;">
+  <h2 class="trafalgar text-center">User Flow</h2>
+  <center>
+  <h3 class="great-primer step-by-step">1</h3>
+
+  <p class="long-primer text-center">User is dropped in Goal 1 flow (Avoid New Debt - or Spend Less than You Make) after onboarding flow if Stratus calculates that user is overspending.
+  </p>
+  <img src="/images/project_stages/sp_screen1.png" class="display-case-alt" />
+  <br /><br />
+
+  <h3 class="great-primer step-by-step">2</h3>
+
+  <p class="long-primer text-center">User clicks "fix now" to an overview and introduction of the spending plan.</p>
+  <img src="/images/project_stages/sp-overview.png" class="display-case-alt" />
+  <br /><br />
+
+
+
+  <h3 class="great-primer step-by-step">3</h3>
+
+  <p class="long-primer text-center">User clicks continue to view their spending as it pertains to these buckets. User can click the buckets to get a more detailed overview and explanation of the spending plan and how it works. They can drill down and see their spending has been in each category.</p>
+  <img src="/images/project_stages/sp-overview-deep.png" class="display-case-alt" />
+  <br /><br />
+
+
+  <h3 class="great-primer step-by-step">4</h3>
+
+  <p class="long-primer text-center">User clicks continue to view savings opportunity in each category.</p>
+  <img src="/images/project_stages/sp-op.png" class="display-case-alt" />
+  <br /><br />
+
+
+  <h3 class="great-primer step-by-step">5</h3>
+
+  <p class="long-primer text-center">User views opportunity to find overspent money and agrees to spending less in that category. This is automatically adjusted in their spending plan.</p>
+  <img src="/images/project_stages/sp-op-agree.png" class="display-case-alt" />
+  <br /><br />
+
+
+  <h3 class="great-primer step-by-step">6</h3>
+
+  <p class="long-primer text-center">User is ready to view and adjust spending plan.</p>
+  <img src="/images/project_stages/spending-plan.png" class="display-case-alt" />
+  <br /><br />
+
+
+  <h3 class="great-primer step-by-step">7</h3>
+
+  <p class="long-primer text-center">User can drill down deeper for details.</p>
+  <img src="/images/project_stages/spending-plan-all.gif" class="display-case-alt" />
+  <br /><br />
+  </center>
+</div>
+
+<div project-elements="middle" class="container default">
+  <h2 class="trafalgar text-center">Low-Fi and Hi-Mockups &amp; Prototypes</h2>
+  <!-- <p class="long-primer text-center" >We've gone through multiple iterations of this flow and tested with target users - here are some of those previous designs</p> -->
+</div>
+<div project-thumbnails="" style="padding-bottom: 70px;">
+  <ul>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/goal1.png')">
+    </div>
+      <h3 class="great-primer">Savings Opportunity Screen Low-Fi</h3>
+      <p class="long-primer">This was the first low-fi mock for this screen which included mostly numbers and data instead of explanations and personalization.</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/goal1.png">View Document</a>
+      </center>
+    </li>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/income-expenses2.png')">
+    </div>
+      <h3 class="great-primer">Spending Plan Low-Fi</h3>
+      <p class="long-primer">User is unaware of what action to take and seems to resemble more of an excel spreadsheet than an interface. This was one of the first low-fi mocks for the Spending Plan.</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/income-expenses2.png">View Document</a>
+      </center>
+    </li>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/goal1-screen1.png')">
+    </div>
+      <h3 class="great-primer">Spend Less than You Make Hi-Fi</h3>
+      <p class="long-primer">First hi-fi mock of this interface - you can see the menu is clunkier here and was too confusing and distracting for users.</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/goal1-screen1.png">View Document</a>
+      </center>
+    </li>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/goal1-screen2.png')">
+    </div>
+      <h3 class="great-primer">Spending Plan Hi-Fi</h3>
+      <p class="long-primer">First hi-fi mock of spending plan. The sliders were way too tiny for users and when implemented with all 32 spending categories it became daunting and overwhelming.</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/goal1-screen2.png">View Document</a>
+      </center>
+    </li>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/goal1-screen3.png')">
+    </div>
+      <h3 class="great-primer">Savings Opportunity Hi-Fi</h3>
+      <p class="long-primer">Second or third hi-fi mock of savings opportunity. Users did not connect the suggestions we made with to their spending plan.</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/goal1-screen3.png">View Document</a>
+      </center>
+    </li>
+    
+    <li class="alt">
+    <div class="preview" style="background-position: center top; background-image: url('/images/project_stages/income-expenses3.png')">
+    </div>
+      <h3 class="great-primer">Spend less than You Make Low-Fi</h3>
+      <p class="long-primer">First low-fi mock of the first landing page of the interface (where we now have the wallet).</p>
+      <center>
+      <br />
+      <a href="/images/project_stages/income-expenses3.png">View Document</a>
+      </center>
+    </li>
+    
+  </ul>
+</div>
+
+
+    </div>
+    <footer>
+  <div class="container-footer invert">
+    <div class="row">
+      <div class="left-footer">
+        <h4 class="pica">Daniella Marooney</h4>
+        <p class="long-primer">Daniellam1105@gmail.com</p>
+        <a href="/contact/" class="footer-invert">Contact Me</a>
+        <!-- <h4 class="pica" >Office Hours</h4>
+        <p class="long-primer">Monday - Thursday 9:00am - 5:00pm EST </p> -->
+      </div>
+      <div class="right-footer">
+        <a class="social" href="https://www.linkedin.com/in/daniella-marooney-0a19263a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a class="social" href="https://www.facebook.com/daniella.marooney"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
+<script>
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+   $("#mobile1, #mobile2, #mobile3, #mobile4, #mobile5, #mobile6, #mobile7").click(function() {
+       $(this).find('.long-primer').toggle(1000);
+       $(this).find('.fa-caret-down, .fa-caret-up').toggle();
+       $(this).css({"z-index":"100" , "background-color": "rgba(255,255,255,1)"});
+       $(this).siblings('div').css({"z-index":"10" , "background-color": "rgba(255,255,255,.85)"});
+   });
+
+
+
+
+
+</script>
